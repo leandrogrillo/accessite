@@ -6,6 +6,8 @@
 
 ### Changelog
 
+#### Versão 2.1 
+- Adicionado página de Parceiros
 
 #### Versão 2.0 
 - Indetação do código
