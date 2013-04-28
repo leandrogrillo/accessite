@@ -26,18 +26,18 @@ window.onload = function () {
             LoadMais(NomeArquivo, 2000);
             window.setTimeout(function() {
                 Scroll('listagem-wrapper');
-            }, 2001);
+            }, 2100);
 
-            bMais.fadeOut('slow');
+            bMais.fadeOut(2000);
 
-            loader.fadeOut(1999);        
+            loader.fadeOut(2000);        
         });
     }
 
     function Scroll(id){
         $('html,body').animate({
             scrollTop: $("#"+id).offset().top},
-            'slow');
+            1000);
     }
 
     if( mq.matches ){
