@@ -1240,7 +1240,11 @@ form.custom div.custom.dropdown a.selector{height: 33px;}
 
 /*#b-mais{display: none;}*/
 
-#listagem-noticias{float: left;}
+#listagem-wrapper{float: left;}
+
+#b-mais{
+  margin-bottom: 20px;
+}
 
 #loader{
   width: 100%;
@@ -1277,8 +1281,6 @@ form.custom div.custom.dropdown a.selector{height: 33px;}
 
   span.prefix, span.postfix{height: 40px;}
 
-  #b-mais,
-  #loader,
   .img-destaque{display: none;}
 
 }
