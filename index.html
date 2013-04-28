@@ -57,7 +57,7 @@
             <section role="main">
                 <div class="row">
                     <div class="twelve columns">
-                        <img src="http://placehold.it/1000x400&text=[Imagem de Destaque]" class="hide-for-small"/>
+                        <div class="img-destaque"><img src="http://placehold.it/994x398&text=[Imagem de Destaque]" class="hide-for-small" width="994" height="398"/></div>
                         <div class="hide-for-small"><hr /></div>
                     </div>
                 </div>
@@ -69,29 +69,36 @@
                     </div>
 
                     <div class="three columns">
-                        <a href="interna-locais.html" class="th"><img src="http://placehold.it/400x300&amp;text=[thumb locais]"></a>
+                        <a href="interna-locais.html" class="th"><img src="http://placehold.it/218x164&amp;text=[thumb locais]"></a>
                         <h2><a href="interna-locais.html">Nome do Local</a></h2>
                         <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
                     </div>
 
                     <div class="three columns">
-                        <a href="interna-locais.html" class="th"><img src="http://placehold.it/400x300&amp;text=[thumb locais]"></a>
+                        <a href="interna-locais.html" class="th"><img src="http://placehold.it/218x164&amp;text=[thumb locais]"></a>
                         <h2><a href="interna-locais.html">Nome do Local</a></h2>
                         <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
                     </div>
 
                     <div class="three columns">
-                        <a href="interna-locais.html" class="th"><img src="http://placehold.it/400x300&amp;text=[thumb locais]"></a>
+                        <a href="interna-locais.html" class="th"><img src="http://placehold.it/218x164&amp;text=[thumb locais]"></a>
                         <h2><a href="interna-locais.html">Nome do Local</a></h2>
                         <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
                     </div>
 
                     <div class="three columns">
-                        <a href="interna-locais.html" class="th"><img src="http://placehold.it/400x300&amp;text=[thumb locais]"></a>
+                        <a href="interna-locais.html" class="th"><img src="http://placehold.it/218x164&amp;text=[thumb locais]"></a>
                         <h2><a href="interna-locais.html">Nome do Local</a></h2>
                         <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
                     </div>
                 </div>
+                
+                <div id="loader" class="twelve columns"></div>
+
+                <div class="listagem-noticias-wrapper">
+                    <div id="listagem-noticias"></div>                        
+                </div>
+
             </section>
 
             <section id="sidebar" role="complementary">
@@ -128,12 +135,30 @@
         </footer>
     </div>
 
-
     <!-- Included JS Files -->
     <script src="javascripts/foundation/jquery.js"></script>
     <script src="javascripts/foundation/jquery.placeholder.js"></script>
     <script src="javascripts/foundation/jquery.foundation.forms.js"></script>  
     <script src="javascripts/foundation/jquery.offcanvas.js"></script>
     <script src="javascripts/foundation/app.js"></script>
+    <script>
+        window.onload = function () {
+            var mq = window.matchMedia( "(min-width: 768px)" );
 
+            function LoadNoticias(){
+                $.ajax({
+                    url: "/accessite/includes/listagem-noticias.html",
+                    dataType: "html",
+                    success: function(data) {
+                        $("#listagem-noticias").hide().html(data).fadeIn();
+                    }
+                });
+            }
+
+            if( mq.matches){
+                LoadNoticias();
+            }
+
+        }        
+    </script>
 </body>

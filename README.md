@@ -12,6 +12,7 @@
 - Adicionado o Campo de busca em todas as páginas
 - Removido CSS adicional - foundation.min.css
 - Removido Scripts comentados do footer
+- Adicionado listagem de noticias da home via Ajax, apenas para versão desktop
 
 #### Versão 2.0 
 - Indetação do código
