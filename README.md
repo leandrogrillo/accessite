@@ -6,6 +6,11 @@
 
 ### Changelog
 
+#### Versão 2.2
+- Adicionado loader para as páginas home, locais acessíveis, noticias no mobile
+- Removido animaçoes de javascript para mostrar mais noticias e locais no mobile
+- Adicionado animaçoes simples com CSS3 para mostrar mais noticias e locais no mobile
+
 #### Versão 2.1 
 - Adicionado página de Parceiros
 - Adicionado o Title das Páginas
@@ -15,7 +20,6 @@
 - Adicionado listagem de noticias da home via Ajax, para a versão desktop e Mobile
 - Adicionado listagem de locais via ajax, para a versão desktop e Mobile
 - Adicionado listagem de eventos via ajax, para a versão desktop
-- Adicionado loader para as páginas home, locais accessíveis, noticias no mobile.
 
 #### Versão 2.0 
 - Indetação do código

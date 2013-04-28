@@ -11,7 +11,7 @@ window.onload = function () {
             dataType: "html",
             success: function(data) {
                 window.setTimeout(function() {
-                    Wrapper.hide().html(data).fadeIn();
+                    Wrapper.html(data).addClass('fadein');
                 }, Tempo);                
             }
         });
@@ -21,24 +21,24 @@ window.onload = function () {
         bMais.on('click', function(e) { 
             e.preventDefault();
 
-            loader.fadeIn();          
+            loader.addClass('fadein');
+            bMais.addClass('fadein');        
 
             LoadMais(NomeArquivo, 2000);
             window.setTimeout(function() {
-                Scroll('listagem-wrapper');
+                // Scroll('listagem-wrapper');
+                loader.removeClass('fadein').addClass('fadeout');
+                bMais.removeClass('fadein').addClass('fadeout');
             }, 2100);
-
-            bMais.fadeOut(2000);
-
-            loader.fadeOut(2000);        
+                    
         });
     }
 
-    function Scroll(id){
-        $('html,body').animate({
-            scrollTop: $("#"+id).offset().top},
-            1000);
-    }
+    // function Scroll(id){
+    //     $('html,body').animate({
+    //         scrollTop: $("#"+id).offset().top},
+    //         1000);
+    // }
 
     if( mq.matches ){
             
