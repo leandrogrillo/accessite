@@ -8,6 +8,9 @@
 
 #### Versão 2.1 
 - Adicionado página de Parceiros
+- Adicionado o Title das Páginas
+- Removido CSS adicional - foundation.min.css
+- Removido Scripts comentados do footer
 
 #### Versão 2.0 
 - Indetação do código
