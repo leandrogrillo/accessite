@@ -9,6 +9,7 @@
 #### Versão 2.1 
 - Adicionado página de Parceiros
 - Adicionado o Title das Páginas
+- Adicionado o Campo de busca em todas as páginas
 - Removido CSS adicional - foundation.min.css
 - Removido Scripts comentados do footer
 
