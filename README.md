@@ -6,6 +6,9 @@
 
 ### Changelog
 
+### Versão 2.3
+- Estilizando a home para teste
+
 #### Versão 2.2
 - Adicionado loader para as páginas home, locais acessíveis, noticias no mobile
 - Removido animaçoes de javascript para mostrar mais noticias e locais no mobile
