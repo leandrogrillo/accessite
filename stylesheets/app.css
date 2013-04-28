@@ -1229,6 +1229,8 @@ h1.site-title{margin: 14px 0 14px;}
 .row .galeria-locais{margin-bottom: 20px;}
 .row .galeria-locais img{margin-bottom: 10px;}
 
+.row .galeria-parceiros div{margin-bottom: 10px;}
+
 form.custom div.custom.dropdown,
 form.custom div.custom.dropdown ul,
 form.custom div.custom.dropdown a.current{width: 67px !important;}
