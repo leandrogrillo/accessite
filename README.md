@@ -6,6 +6,9 @@
 
 ### Changelog
 
+### Versão 2.4
+- Teste de cores para design
+
 ### Versão 2.3
 - Estilizando a home para teste
 
