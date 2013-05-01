@@ -8,6 +8,7 @@
 
 ### Versão 2.4
 - Teste de cores para design
+- Adicionado novo header nas internas
 
 ### Versão 2.3
 - Estilizando a home para teste
