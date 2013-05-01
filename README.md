@@ -9,6 +9,7 @@
 ### Versão 2.4
 - Teste de cores para design
 - Adicionado novo header nas internas
+- Adicionado class "current-page" no menu principal para desktop e mobile.
 
 ### Versão 2.3
 - Estilizando a home para teste
