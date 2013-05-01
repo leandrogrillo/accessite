@@ -10,6 +10,7 @@
 - Teste de cores para design
 - Adicionado novo header nas internas
 - Adicionado class "current-page" no menu principal para desktop e mobile.
+- Ajuste no menu mobile, adicionado icone e class current-page
 
 ### Versão 2.3
 - Estilizando a home para teste
