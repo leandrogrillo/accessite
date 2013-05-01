@@ -32,7 +32,7 @@ p a, p a:visited { line-height: inherit; }
 
 .nav-bar > li:hover > a > .foundicon-location,
 .nav-bar > li:hover > a > .foundicon-mail,
-.nav-bar > li:hover > a > .foundicon-lock{ color: #1abc9c}
+.nav-bar > li:hover > a > .foundicon-lock{ color: #ff6666}
 
 /* Misc ---------------------- */
 .left { float: left; }
@@ -1144,12 +1144,12 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
   .nav-bar { height: auto; }
   .nav-bar > li { float: none; display: block; border-right: none; }
 
-  .nav-bar > li > a:first-child{background: #373b43;position: relative;
+  .nav-bar > li > a:first-child{background: #2a2a2a;position: relative;
 padding: 0 10px;
 display: block;
 text-decoration: none;
 font-size: 14px;
--webkit-box-shadow: 0 1px 0 #fff inset; -moz-box-shadow: 0 1px 0 #fff inset; box-shadow: 0 1px 0 #fff inset;
+-webkit-box-shadow: 0 1px 0 #373b43 inset; -moz-box-shadow: 0 1px 0 #373b43 inset; box-shadow: 0 1px 0 #373b43 inset;
 border-bottom: 0;
 -webkit-transition: 0.15s all linear;
 -moz-transition: 0.15s all linear;
@@ -1157,7 +1157,7 @@ border-bottom: 0;
 transition: 0.15s all linear;}
 
 .nav-bar > li:hover > a, .nav-bar > li:focus > a{
-  color: #1abc9c;
+  color: #ff6666;
 } 
 
   .nav-bar > li > a.main { text-align: left; border-top: 1px solid #ddd; border-right: none; }
