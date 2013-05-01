@@ -24,6 +24,8 @@ p a, p a:visited { line-height: inherit; }
 .foundicon-lock{
   color: #fff;
   font-size: 22px;
+  position: absolute;
+  left: 10px;
    -webkit-transition: 0.15s all linear; 
    -moz-transition: 0.15s all linear; 
    -o-transition: 0.15s all linear; 
@@ -1145,7 +1147,7 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
   .nav-bar > li { float: none; display: block; border-right: none; }
 
   .nav-bar > li > a:first-child{background: #2a2a2a;position: relative;
-padding: 0 10px;
+padding: 0 10px 0 40px;
 display: block;
 text-decoration: none;
 font-size: 14px;
