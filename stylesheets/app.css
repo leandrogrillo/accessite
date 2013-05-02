@@ -7,11 +7,12 @@ html { font-size: 62.5%; }
 body { background: #ecf0f1; font-family: 'Open Sans', Arial, sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 1; color: #222222; position: relative; -webkit-font-smoothing: antialiased; }
 
 /* Links ---------------------- */
-a { color: #3498db; text-decoration: none; line-height: inherit; }
+a { color: #5a5a5a; text-decoration: none; line-height: inherit;webkit-transition: 0.15s all linear;-moz-transition: 0.15s all linear;
+-o-transition: 0.15s all linear;transition: 0.15s all linear; }
 
-a:hover { color: #2980b9; }
+a:hover { color: #ff6666; }
 
-a:focus { color: #2980b9; outline: none; }
+a:focus { color: #ff6666; outline: none; }
 
 p a, p a:visited { line-height: inherit; }
 
@@ -21,7 +22,8 @@ p a, p a:visited { line-height: inherit; }
 
 .foundicon-location,
 .foundicon-mail,
-.foundicon-lock{
+.foundicon-lock,
+.foundicon-home{
   color: #fff;
   font-size: 22px;
   position: absolute;
@@ -34,7 +36,8 @@ p a, p a:visited { line-height: inherit; }
 
 .nav-bar > li:hover > a > .foundicon-location,
 .nav-bar > li:hover > a > .foundicon-mail,
-.nav-bar > li:hover > a > .foundicon-lock{ color: #ff6666}
+.nav-bar > li:hover > a > .foundicon-lock,
+.nav-bar > li:hover > a > .foundicon-home{ color: #ff6666}
 
 /* Misc ---------------------- */
 .left { float: left; }
@@ -71,7 +74,7 @@ p.lead { font-size: 17.5px; line-height: 1.6; margin-bottom: 17px; }
 
 aside p { font-size: 13px; line-height: 1.35; font-style: italic; }
 
-h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; font-weight: bold; font-style: normal; color: #222222; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', sans-serif; font-weight: bold; font-style: normal; color: #373b43; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; }
 
 h1 { font-size: 28px; }
@@ -175,7 +178,7 @@ span.prefix, span.postfix { background: #f2f2f2; border: 1px solid #cccccc; }
 
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea { background-color: white; font-family: inherit; border: 1px solid #cccccc; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); color: rgba(0, 0, 0, 0.75); display: block; font-size: 14px; margin: 0 0 12px 0; padding: 6px; height: 32px; width: 100%; -webkit-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -o-transition: all 0.15s linear; transition: all 0.15s linear; }
 input[type="text"].oversize, input[type="password"].oversize, input[type="date"].oversize, input[type="datetime"].oversize, input[type="email"].oversize, input[type="number"].oversize, input[type="search"].oversize, input[type="tel"].oversize, input[type="time"].oversize, input[type="url"].oversize, textarea.oversize { font-size: 17px; padding: 4px 6px; }
-input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus { background: #fafafa; outline: none !important; border-color: #b3b3b3; }
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus { background: #fafafa; outline: none !important; border-color: #2a2a2a; }
 input[type="text"][disabled], input[type="password"][disabled], input[type="date"][disabled], input[type="datetime"][disabled], input[type="email"][disabled], input[type="number"][disabled], input[type="search"][disabled], input[type="tel"][disabled], input[type="time"][disabled], input[type="url"][disabled], textarea[disabled] { background-color: #ddd; }
 
 textarea { height: 100px; }
@@ -390,12 +393,12 @@ that IE7/8 do not support :nth-child.
 .block-grid.twelve-up > li:nth-child(12n+1) { clear: both; }
 
 /* Normal Buttons ---------------------- */
-input[type="submit"].button{border-bottom: 2px solid #16a085; border-top: 0;border-right: 0;border-left: 0; border-radius: 0;}
+input[type="submit"].button{border-bottom: 2px solid #dc3939; border-top: 0;border-right: 0;border-left: 0; border-radius: 0;}
 input[type="submit"].button:focus,
-input[type="submit"].button:hover{background-color: #16a085;border-bottom: 2px solid #1abc9c; }
+input[type="submit"].button:hover{background-color: #dc3939;border-bottom: 2px solid #dc3939; }
 
-.button { width: auto; background: #1abc9c; border-bottom: 4px solid #16a085; /*-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;*/ color: white; cursor: pointer; display: inline-block; font-family: inherit; font-size: 14px; font-weight: bold; line-height: 1; margin: 0; outline: none; padding: 10px 20px 11px; position: relative; text-align: center; text-decoration: none; -webkit-transition: background-color 0.15s ease-in-out; -moz-transition: background-color 0.15s ease-in-out; -o-transition: background-color 0.15s ease-in-out; transition: background-color 0.15s ease-in-out; /* Hovers */ /* Sizes */ /* Colors */ /* Radii */ /* Layout */ /* Disabled ---------- */ }
-.button:hover { color: white; background-color: #16a085; }
+.button { width: auto; background: #ff6666; border-bottom: 4px solid #dc3939; /*-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;*/ color: white; cursor: pointer; display: inline-block; font-family: inherit; font-size: 14px; font-weight: bold; line-height: 1; margin: 0; outline: none; padding: 10px 20px 11px; position: relative; text-align: center; text-decoration: none; -webkit-transition: background-color 0.15s ease-in-out; -moz-transition: background-color 0.15s ease-in-out; -o-transition: background-color 0.15s ease-in-out; transition: background-color 0.15s ease-in-out; /* Hovers */ /* Sizes */ /* Colors */ /* Radii */ /* Layout */ /* Disabled ---------- */ }
+.button:hover { color: white; background-color: #dc3939; }
 .button:active { -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; }
 .button:focus { -webkit-box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset; color: white; }
 .button.large { font-size: 17px; padding: 15px 30px 16px; }
@@ -933,7 +936,7 @@ ul.inline-list li a, ul.link-list li a { display: block; }
 /* Image Thumbnails ---------------------- */
 .th { display: block; }
 .th img { display: block; border: solid 4px #fff; -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2); box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2); -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-transition-property: box-shadow; -moz-transition-property: box-shadow; -o-transition-property: box-shadow; transition-property: box-shadow; -webkit-transition-duration: 300ms; -moz-transition-duration: 300ms; -o-transition-duration: 300ms; transition-duration: 300ms; }
-.th:hover img { -webkit-box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5); -moz-box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5); box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5); }
+.th:hover img { -webkit-box-shadow: 0 0 6px 1px #5d6d7e; -moz-box-shadow: 0 0 6px 1px #5d6d7e; box-shadow: 0 0 6px 1px #5d6d7e; }
 
 /* Video - Mad props to http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/ ---------------------- */
 .flex-video { position: relative; padding-top: 25px; padding-bottom: 67.5%; height: 0; margin-bottom: 16px; overflow: hidden; }
