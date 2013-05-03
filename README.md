@@ -6,6 +6,8 @@
 
 ### Changelog
 
+### Versão 2.5
+
 ### Versão 2.4
 - Teste de cores para design
 - Adicionado novo header nas internas
@@ -20,7 +22,7 @@
 - Removido animaçoes de javascript para mostrar mais noticias e locais no mobile
 - Adicionado animaçoes simples com CSS3 para mostrar mais noticias e locais no mobile
 
-#### Versão 2.1 
+#### Versão 2.1
 - Adicionado página de Parceiros
 - Adicionado o Title das Páginas
 - Adicionado o Campo de busca em todas as páginas
@@ -30,22 +32,22 @@
 - Adicionado listagem de locais via ajax, para a versão desktop e Mobile
 - Adicionado listagem de eventos via ajax, para a versão desktop
 
-#### Versão 2.0 
+#### Versão 2.0
 - Indetação do código
 - Ajustes finais na estrutura do html
 - Iniciado implemtação do ajax.
 
-#### Versão 1.5 
+#### Versão 1.5
 - Adicionado as páginas de locais e internas de locais
 
-#### Versão 1.4 
+#### Versão 1.4
 - Adicionado as páginas de noticias, eventos e suas internas
 
-#### Versão 1.3 
+#### Versão 1.3
 - Corrigido bug do menu no Firefox.
 
-#### Versão 1.2 
+#### Versão 1.2
 - Organizado Páginas a entrar no site
 
-#### Versão 1.0 
+#### Versão 1.0
 - Projeto Iniciado
