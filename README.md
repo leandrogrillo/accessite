@@ -7,12 +7,16 @@
 ### Changelog
 
 ### Versão 2.5
+- "Juntado" o offcanvas.css com o app.css para ter apenas um request de css
+- "Juntado" arquivos js do foundation em um só (build.js)
+- Adicionad fallback pro jQuery
 
 ### Versão 2.4
 - Teste de cores para design
 - Adicionado novo header nas internas
 - Adicionado class "current-page" no menu principal para desktop e mobile.
 - Ajuste no menu mobile, adicionado icone e class current-page
+- Adicionado novo footer nas internas, icone de noticias ajustes gerais
 
 ### Versão 2.3
 - Estilizando a home para teste

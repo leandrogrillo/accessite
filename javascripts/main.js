@@ -26,19 +26,12 @@ window.onload = function () {
 
             LoadMais(NomeArquivo, 2000);
             window.setTimeout(function() {
-                // Scroll('listagem-wrapper');
                 loader.removeClass('fadein').addClass('fadeout');
                 bMais.removeClass('fadein').addClass('fadeout');
             }, 2100);
                     
         });
     }
-
-    // function Scroll(id){
-    //     $('html,body').animate({
-    //         scrollTop: $("#"+id).offset().top},
-    //         1000);
-    // }
 
     if( mq.matches ){
             

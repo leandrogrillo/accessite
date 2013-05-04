@@ -13,7 +13,7 @@
 
 	<!-- Included CSS Files -->    
     <link rel="stylesheet" href="stylesheets/app.css">
-    <link rel="stylesheet" href="stylesheets/offcanvas.css">
+    <!-- <link rel="stylesheet" href="stylesheets/offcanvas.css"> -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 
     <script src="javascripts/foundation/modernizr.foundation.js"></script>
@@ -105,7 +105,7 @@
 
                 <div class="row show-for-small">
                     <div class="twelve columns">
-                        <a href="#" id="b-mais" class="button">Carregar mais Noticias</a>
+                        <a href="#" id="b-mais" class="button">Carregar Noticias</a>
                     </div>
                 </div>
 
@@ -114,8 +114,9 @@
             <section id="sidebar" role="complementary">
                 <nav id="sideMenu" role="navigation">
                     <ul id="sideMainNav" class="nav-bar">
+                        <li class="current-page"><a href="index.html"><i class="foundicon-home"></i>Home</a></li>
                         <li><a href="locais.html"><i class="foundicon-location"></i>Locais Acessíveis</a></li>
-                        <li><a href="noticias.html">Noticias</a></li>
+                        <li><a href="noticias.html"><i class="foundicon-website"></i>Noticias</a></li>
                         <li><a href="contato.html"><i class="foundicon-mail"></i>Contato</a></li>
                         <li><a href="login.html"><i class="foundicon-lock"></i>Login</a></li>
                     </ul>
@@ -127,17 +128,17 @@
             <footer class="row">
                 <div class="twelve columns">
                     <div class="row">
-                        <div class="six columns">
-                            <p>&copy; Copyright AccesSite.</p>
+                        <div class="five columns">
+                            <img src="images/footer-instituto.png" alt="Instituto Felipe Stelzer">
                         </div>
-                        <div class="six columns">
+                        <div class="seven columns">
                             <ul class="link-list right">
-                                <li><a href="institucional.html">Institucional</a></li>
-                                <li><a href="locais.html">Locais Acessíveis</a></li>
-                                <li><a href="noticias.html">Noticias</a></li>
-                                <li><a href="eventos.html">Eventos</a></li>
-                                <li><a href="contato.html">Contato</a></li>
-                                <li><a href="login.html">Login</a></li>
+                                <li class="mobile-four"><a href="institucional.html">Institucional</a></li>
+                                <li class="mobile-four"><a href="locais.html">Locais Acessíveis</a></li>
+                                <li class="mobile-four"><a href="noticias.html">Noticias</a></li>
+                                <li class="mobile-four"><a href="eventos.html">Eventos</a></li>
+                                <li class="mobile-four"><a href="parceiros.html">Parceiros</a></li>
+                                <li class="mobile-four"><a href="contato.html">Contato</a></li>
                             </ul>
                         </div>
                     </div>
@@ -147,10 +148,15 @@
     </div>
 
     <!-- Included JS Files -->
-    <script src="javascripts/foundation/jquery.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="javascripts/foundation/jquery.js"><\/script>')</script>
+    
     <script src="javascripts/main.js"></script>
+    <script src="javascripts/build.js"></script>
+    <!--
+    <script src="javascripts/foundation/jquery.js"></script>
     <script src="javascripts/foundation/jquery.placeholder.js"></script>
     <script src="javascripts/foundation/jquery.foundation.forms.js"></script>  
     <script src="javascripts/foundation/jquery.offcanvas.js"></script>
-    <script src="javascripts/foundation/app.js"></script>    
+    <script src="javascripts/foundation/app.js"></script>     -->
 </body>

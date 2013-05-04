@@ -23,9 +23,10 @@ p a, p a:visited { line-height: inherit; }
 .foundicon-location,
 .foundicon-mail,
 .foundicon-lock,
-.foundicon-home{
+.foundicon-home,
+.foundicon-website{
   color: #fff;
-  font-size: 22px;
+  font-size: 25px;
   position: absolute;
   left: 10px;
    -webkit-transition: 0.15s all linear; 
@@ -35,9 +36,15 @@ p a, p a:visited { line-height: inherit; }
 }
 
 .nav-bar > li:hover > a > .foundicon-location,
+.nav-bar > li.current-page > a > .foundicon-location,
 .nav-bar > li:hover > a > .foundicon-mail,
+.nav-bar > li.current-page > a > .foundicon-mail,
 .nav-bar > li:hover > a > .foundicon-lock,
-.nav-bar > li:hover > a > .foundicon-home{ color: #ff6666}
+.nav-bar > li.current-page > a > .foundicon-lock,
+.nav-bar > li:hover > a > .foundicon-home,
+.nav-bar > li.current-page > a > .foundicon-home,
+.nav-bar > li:hover > a > .foundicon-website,
+.nav-bar > li.current-page > a > .foundicon-website{ color: #ff6666}
 
 /* Misc ---------------------- */
 .left { float: left; }
@@ -926,7 +933,7 @@ ul.breadcrumbs li.unavailable a { color: #999; }
 ul.breadcrumbs li.unavailable:hover a, ul.breadcrumbs li.unavailable a:focus { text-decoration: none; color: #999; cursor: default; }
 
 /* Inline Link List */
-ul.inline-list, ul.link-list { margin: 0 0 17px -22px; padding: 0; list-style: none; overflow: hidden; }
+ul.inline-list, ul.link-list { margin: 10px 0 17px -22px; padding: 0; list-style: none; overflow: hidden; }
 ul.inline-list li, ul.link-list li { list-style: none; float: left; margin-left: 22px; display: block; }
 ul.inline-list li a, ul.link-list li a { display: block; }
 
@@ -1081,6 +1088,11 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
   .row.collapse .mobile-three { padding: 0; }
   .row .mobile-four { width: 100% !important; float: left; padding: 0 15px; }
   .row .mobile-four:last-child { float: right; }
+  .row .link-list .mobile-four:last-child{ float: none;}
+    .row .link-list .mobile-four{
+      padding: 10px 0;
+    }
+
   .row .mobile-four.end { float: left; }
   .row.collapse .mobile-four { padding: 0; }
   .push-one-mobile { left: 25%; }
@@ -1151,7 +1163,7 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
   .nav-bar > li { float: none; display: block; border-right: none; }
 
   .nav-bar > li > a:first-child{background: #2a2a2a;position: relative;
-padding: 0 10px 0 40px;
+padding: 0 10px 0 45px;
 display: block;
 text-decoration: none;
 font-size: 14px;
@@ -1344,7 +1356,11 @@ form.custom div.custom.dropdown a.selector{height: 33px;}
 }
 
 .header-holder{margin-bottom: 20px;}
-.footer-holder{margin-top: 20px;}
+.footer-holder{margin-top: 20px; color: #fff; padding: 14px 0 7px;}
+
+.footer-holder a{color: #fff;}
+.footer-holder a:hover,
+.footer-holder a:focus{color: #ff6666;}
 
 @media only screen and (max-width: 767px) {
   .left.img-institu{margin: 5px 0 15px;}
@@ -1372,3 +1388,55 @@ form.custom div.custom.dropdown a.selector{height: 33px;}
   .img-destaque{display: none;}
 
 }
+
+/* Off canvas layout CSS/JS provided by or adapted from work by Jason Weaver and Luke Wroblewski Requires globals.css grid.css */
+body.off-canvas { padding: 0; margin: 0; }
+
+.container { width: 100%; }
+
+.row { overflow: hidden; }
+
+.row .row { overflow: visible; }
+
+.paneled .container { overflow: hidden; }
+
+.paneled .row { width: 100%; }
+
+[role="main"]:before { content: " "; position: absolute; z-index: -1; top: 0; left: -100%; width: 100%; height: 100%; }
+
+[role="complementary"], [role="main"] { width: 100%; padding: 0 15px; display: block; position: relative; z-index: 1; -webkit-transition: 0.25s all ease-in; -moz-transition: 0.25s all ease-in; -o-transition: 0.25s all ease-in; transition: 0.25s all ease-in; }
+
+.paneled [role="main"] { padding: 0; }
+
+.page-panel { width: 100%; padding: 0 15px; -webkit-transition: 0.3s margin ease-in-out; -moz-transition: 0.3s margin ease-in-out; -o-transition: 0.3s margin ease-in-out; transition: 0.3s margin ease-in-out; background: #fff; }
+
+#switchPanels { margin: 0 -15px; }
+
+.hide-extras [role="complementary"] { display: block; }
+
+[role="navigation"]#topMenu { -webkit-transition: 0.25s all ease-in; -moz-transition: 0.25s all ease-in; -o-transition: 0.25s all ease-in; transition: 0.25s all ease-in; }
+
+[role="navigation"]#topMenu ul { margin-top: 0; }
+
+[role="complementary"] { margin-left: -100%; width: 80%; float: left; z-index: 2; }
+
+[role="main"] { margin-left: 0; float: right; z-index: 1; position: relative; }
+
+.paneled [role="main"] { background: #fff; width: 500%; overflow: hidden; float: none; position: relative; left: 0; -webkit-transition: 0.15s all ease-in; -moz-transition: 0.15s all ease-in; -o-transition: 0.15s all ease-in; transition: 0.15s all ease-in; }
+
+.page-panel { min-height: 400px; float: left; margin: 0; width: 20%; }
+
+.active [role="complementary"] { margin-left: 0; }
+
+.active [role="main"] { margin-right: -80%; }
+
+.active-menu [role="navigation"]#topMenu { margin-top: 0 !important; }
+
+@media all and (min-width: 768px) { menu-button, .sidebar-button { display: none; }
+  [role="complementary"] { width: 20%; margin-left: 0; float: left; padding: 0 15px; }
+  [role="main"] { width: 80%; padding: 0 15px; }
+  .paneled [role="main"] { width: 100%; padding: 0; background: #f4f4f4; left: 0 !important; }
+  .page-panel { display: block; min-height: 800px; float: none; margin: 0; width: 100%; background: #f4f4f4; }
+  .hide-extras [role="main"] { width: 100%; }
+  .hide-extras [role="complementary"] { display: none; }
+  [role="navigation"]#topMenu { display: none; } }
