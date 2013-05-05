@@ -1,5 +1,27 @@
 window.onload = function () {
 
+    // Carregamento das Imagens de topo apenas para desktop, via data-* atributo
+    var mqDataAttr = window.matchMedia("(max-width: 767px)"),
+        ImgMobile = document.querySelector(".mobileimg"),
+        el = document.createElement("img"),
+        // data = ImgMobile,
+        imgFull = ImgMobile.getAttribute("data-srcfull"),
+        imgHeight = ImgMobile.getAttribute("data-heightfull"),
+        imgWidth = ImgMobile.getAttribute("data-widthfull");
+
+    if ( !mqDataAttr.matches) {
+        ImgMobile.classList.add('imghide'); 
+        el.src = imgFull;
+        el.width = imgWidth;
+        el.height = imgHeight;
+        ImgMobile.appendChild(el);
+        window.setTimeout(function() {
+            ImgMobile.classList.remove('imghide'); 
+            ImgMobile.classList.add('imgshow'); 
+        }, 1200);
+    }
+    // -----------------------------------------------------
+
     // Carregamento de noticias, eventos e locais acessíveis via ajax para desktop
     var mq = window.matchMedia("(max-width: 768px)"),
         Wrapper = $("#listagem-wrapper"),

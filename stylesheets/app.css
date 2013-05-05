@@ -1368,10 +1368,10 @@ form.custom div.custom.dropdown a.selector{height: 33px;}
 }
 
 .imgshow{opacity: 1;
-  -webkit-transition: 0.5s opacity ease-in; 
-  -moz-transition: 0.5s opacity ease-in; 
-  -o-transition: 0.5s opacity ease-in; 
-  transition: 0.5s opacity ease-in;
+  -webkit-transition: 0.8s opacity ease-in; 
+  -moz-transition: 0.8s opacity ease-in; 
+  -o-transition: 0.8s opacity ease-in; 
+  transition: 0.8s opacity ease-in;
 }
 
 @media only screen and (max-width: 767px) {

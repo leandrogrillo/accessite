@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
@@ -16,7 +16,6 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 
     <script src="javascripts/foundation/modernizr.foundation.js"></script>
-    
 
 </head>
 
@@ -134,7 +133,7 @@
                         <div class="seven columns">
                             <ul class="link-list right">
                                 <li class="mobile-four hide-for-small"><a href="institucional.html">Institucional</a></li>
-                                <li class="mobile-four"><a href="index.html">Home</a></li>
+                                <li class="mobile-four hide-for-large"><a href="index.html">Home</a></li>
                                 <li class="mobile-four"><a href="locais.html">Locais Acessíveis</a></li>
                                 <li class="mobile-four"><a href="noticias.html">Noticias</a></li>
                                 <li class="mobile-four hide-for-small"><a href="eventos.html">Eventos</a></li>
@@ -151,7 +150,11 @@
     <!-- Included JS Files -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="javascripts/foundation/jquery.js"><\/script>')</script>
-    <script src="javascripts/mobileimg.js"></script>
     <script src="javascripts/main.js"></script>
     <script src="javascripts/build.js"></script>
+    <!--[if IE]>
+    <script src="javascripts/iefix/matchMedia.js"></script>
+    <script src="javascripts/iefix/mobileimg_ie.js"></script>
+    <![endif]-->
+    
 </body>

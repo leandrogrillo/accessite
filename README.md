@@ -14,6 +14,9 @@
 - 2.5.2 : "Juntado" arquivos js do foundation em um só (build.js)
 - 2.5.3 : Adicionado fallback pro jQuery
 - 2.5.4 : Adicionado feature para que o carragamento da imagem do topo das págias seja via data-* atributos para evitar que seja carregada no mobile
+- 2.5.5 : Fix para IE8/IE9 para a feature da v2.5.4.
+- 2.5.5.1 : Removido a request do imgmobile.js, adicionado os códigos no main.js.
+- 2.5.5.2 : alterado o tempo do css transition da imagem de destaque.
 
 ### Versão 2.4
 - Teste de cores para design
