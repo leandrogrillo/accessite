@@ -7,10 +7,10 @@
 ### Changelog
 
 ### Versão 2.5
-- "Juntado" o offcanvas.css com o app.css para ter apenas um request de css
-- "Juntado" arquivos js do foundation em um só (build.js)
-- Adicionad fallback pro jQuery
-* - Teste de imagem para desktop via data-* atributos para evitar que seja carregada no mobile
+- 2.5.1 : "Juntado" o offcanvas.css com o app.css para ter apenas um request de css
+- 2.5.2 : "Juntado" arquivos js do foundation em um só (build.js)
+- 2.5.3 : Adicionado fallback pro jQuery
+- 2.5.4 : Adicionado feature para que o carragamento da imagem do topo das págias seja via data-* atributos para evitar que seja carregada no mobile
 
 ### Versão 2.4
 - Teste de cores para design

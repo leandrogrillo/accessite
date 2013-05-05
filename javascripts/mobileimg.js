@@ -6,10 +6,8 @@ var mq = window.matchMedia("(max-width: 767px)"),
 	imgHeight = data.heightfull,
 	imgWidth = data.widthfull;
 
-if (mq.matches) {
-  // alert('é o tamanho');
-} else {
-	ImgMobile.classList.add('imghide'); 
+if ( !mq.matches) {
+  	ImgMobile.classList.add('imghide'); 
 	el.src = imgFull;
 	el.width = imgWidth;
 	el.height = imgHeight;
