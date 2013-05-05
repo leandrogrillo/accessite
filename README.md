@@ -3,6 +3,9 @@
 ## O que foi utilizado?
 - Zurb Foundation
 - jQuery
+- Javascript
+- HTML5
+- CSS3
 
 ### Changelog
 
