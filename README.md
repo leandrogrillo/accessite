@@ -10,6 +10,7 @@
 - "Juntado" o offcanvas.css com o app.css para ter apenas um request de css
 - "Juntado" arquivos js do foundation em um só (build.js)
 - Adicionad fallback pro jQuery
+* - Teste de imagem para desktop via data-* atributos para evitar que seja carregada no mobile
 
 ### Versão 2.4
 - Teste de cores para design

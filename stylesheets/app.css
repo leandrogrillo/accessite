@@ -1362,6 +1362,18 @@ form.custom div.custom.dropdown a.selector{height: 33px;}
 .footer-holder a:hover,
 .footer-holder a:focus{color: #ff6666;}
 
+.imghide{
+  opacity: 0;
+  
+}
+
+.imgshow{opacity: 1;
+  -webkit-transition: 0.5s opacity ease-in; 
+  -moz-transition: 0.5s opacity ease-in; 
+  -o-transition: 0.5s opacity ease-in; 
+  transition: 0.5s opacity ease-in;
+}
+
 @media only screen and (max-width: 767px) {
   .left.img-institu{margin: 5px 0 15px;}
   .right.img-institu{margin: 5px 0 15px;}
