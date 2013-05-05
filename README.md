@@ -1,11 +1,13 @@
 #[TCC] Mobile do Site Accessite
 
 ## O que foi utilizado?
-- Zurb Foundation
-- jQuery
-- Javascript
 - HTML5
 - CSS3
+- ([Zurb Foundation](https://github.com/zurb/foundation))
+- jQuery
+- Javascript
+- ([matchMedia() polyfill by Paul Irish](https://github.com/paulirish/matchMedia.js))
+
 
 ### Changelog
 
