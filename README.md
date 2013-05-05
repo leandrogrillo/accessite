@@ -3,11 +3,18 @@
 ## O que foi utilizado?
 - HTML5
 - CSS3
-- ([Zurb Foundation](https://github.com/zurb/foundation))
-- jQuery
+- [Zurb Foundation](https://github.com/zurb/foundation)
+- [jQuery](https://github.com/jquery/jquery)
 - Javascript
-- ([matchMedia() polyfill by Paul Irish](https://github.com/paulirish/matchMedia.js))
+- [matchMedia() polyfill by Paul Irish](https://github.com/paulirish/matchMedia.js)
 
+### Site testado nos browsers:
+- IE8,IE9 e IE10
+- Firefox v20
+- Chrome v26
+- Opera 12.15
+- Safari Mobile
+- Chrome Mobile
 
 ### Changelog
 
