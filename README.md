@@ -18,6 +18,9 @@
 
 ### Changelog
 
+#### Versão 2.7
+- 2.7.1 : Teste para imagens com Data URI's. Arquivo "interna-locais.php"
+
 #### Versão 2.6
 - 2.6.1 : Alterado a chamada dos scripts no footer, alteração baseada na versão 2.5.2
 - 2.6.2 : Alterado a chamada do css no header, alteração baseada na versão 2.5.1

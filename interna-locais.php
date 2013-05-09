@@ -84,7 +84,12 @@
                         <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef. Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
 
                         <div class="twelve left">
-                            <img src="images/img-mapa-full.jpg" id="testeimg"/>
+                            <?php function data_uri($file, $mime) {
+  $contents=file_get_contents($file);
+  $base64=base64_encode($contents);
+  echo "data:$mime;base64,$base64";
+}?>
+                            <img src="<?php data_uri('images/img-mapa-full.jpg', 'image/jpeg'); ?>" id="testeimg"/>
                         </div>
                     </article>
                            
