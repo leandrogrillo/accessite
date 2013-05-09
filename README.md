@@ -18,7 +18,10 @@
 
 ### Changelog
 
-### Versão 2.5
+#### Versão 2.6
+- 2.6.1 : Alterado a chamada dos scripts no footer, alteração baseada na versão 2.5.2
+
+#### Versão 2.5
 - 2.5.1 : "Juntado" o offcanvas.css com o app.css para ter apenas um request de css
 - 2.5.2 : "Juntado" arquivos js do foundation em um só (build.js)
 - 2.5.3 : Adicionado fallback pro jQuery
@@ -27,14 +30,14 @@
 - 2.5.5.1 : Removido a request do imgmobile.js, adicionado os códigos no main.js.
 - 2.5.5.2 : alterado o tempo do css transition da imagem de destaque.
 
-### Versão 2.4
+#### Versão 2.4
 - Teste de cores para design
 - Adicionado novo header nas internas
 - Adicionado class "current-page" no menu principal para desktop e mobile.
 - Ajuste no menu mobile, adicionado icone e class current-page
 - Adicionado novo footer nas internas, icone de noticias ajustes gerais
 
-### Versão 2.3
+#### Versão 2.3
 - Estilizando a home para teste
 
 #### Versão 2.2
