@@ -9,12 +9,12 @@ window.onload = function () {
         imgHeight = ImgMobile.getAttribute("data-heightfull"),
         imgWidth = ImgMobile.getAttribute("data-widthfull");
 
-    if ( !mqDataAttr.matches) {
-        ImgMobile.classList.add('imghide'); 
+    if ( !mqDataAttr.matches) {        
         el.src = imgFull;
         el.width = imgWidth;
         el.height = imgHeight;
         ImgMobile.appendChild(el);
+        ImgMobile.classList.add('imghide');
         window.setTimeout(function() {
             ImgMobile.classList.remove('imghide'); 
             ImgMobile.classList.add('imgshow'); 

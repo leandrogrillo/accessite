@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
@@ -9,7 +8,7 @@
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width" />
 
-    <title>Locais Acessíveis - AccesSite</title>
+    <title>Contato - AccesSite</title>
 
     <!-- Included CSS Files -->
     <link rel="stylesheet" href="stylesheets/app.css">
@@ -19,7 +18,7 @@
 
 </head>
 
-<body id="page" class="off-canvas hide-extras" data-guia="locais">
+<body id="page" class="off-canvas hide-extras">
 	<div class="container">
 
 		<div class="header-holder">
@@ -31,11 +30,11 @@
                     <nav id="menu" role="navigation" class="right hide-for-small">
                         <ul id="mainNav" class="nav-bar">
                             <li><a href="institucional.html">Institucional</a></li>
-                            <li class="current-page"><a href="locais.html">Locais Acessíveis</a></li>
+                            <li><a href="locais.html">Locais Acessíveis</a></li>
                             <li><a href="noticias.html">Noticias</a></li>
                             <li><a href="eventos.html">Eventos</a></li>
                             <li><a href="parceiros.html">Parceiros</a></li>
-                            <li><a href="contato.html">Contato</a></li>
+                            <li class="current-page"><a href="contato.html">Contato</a></li>
                         </ul>
                     </nav>
                     <p class="show-for-small">
@@ -57,76 +56,57 @@
       		<section role="main">
                 <div class="row">
                     <div class="twelve columns">
-                        <div class="img-destaque-interna bg-loader mobileimg" data-srcfull="http://placehold.it/994x298&text=[Topo de Locais Acessíveis]" data-widthfull="994" data-heightfull="298"></div>
+                        <div class="img-destaque-interna bg-loader mobileimg" data-srcfull="http://placehold.it/994x298&text=[Topo de Cadastro]" data-widthfull="994" data-heightfull="298"></div>
                         <span class="hide-for-small"><hr /></span>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="twelve columns">
-                        <h1>Locais Acessíveis</h1>
-                        <p class="hide-for-small">Descrição da Página de Locais Acessíveis, Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
+                        <h1>Cadastro</h1>
+                        <p class="hide-for-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, soluta, reiciendis, est, suscipit deleniti possimus optio adipisci obcaecati cum consectetur dolore ad dolores culpa delectus quam aliquam ullam maiores tempora.</p>
                     </div>
 
-                    <article class="three columns">
-                        <a href="interna-locais.html" class="th"><img src="http://placehold.it/400x300&text=[thumb local]" /></a>
-                        <h2><a href="interna-locais.html">Nome do Local</a></h2>
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
-                    </article>
-
-                    <article class="three columns">
-                        <a href="interna-locais.html" class="th"><img src="http://placehold.it/400x300&text=[thumb local]" /></a>
-                        <h2><a href="interna-locais.html">Nome do Local</a></h2>
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
-                    </article>
-
-                    <article class="three columns">
-                        <a href="interna-locais.html" class="th"><img src="http://placehold.it/400x300&text=[thumb local]" /></a>
-                        <h2><a href="interna-locais.html">Nome do Local</a></h2>
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
-                    </article>
-
-                    <article class="three columns">
-                        <a href="interna-locais.html" class="th"><img src="http://placehold.it/400x300&text=[thumb local]" /></a>
-                        <h2><a href="interna-locais.html">Nome do Local</a></h2>
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong.</p>
-                    </article>
-
+                    <div class="row">
+                        <form class="seven columns centered mobile-four custom">
+                            <div class="row twelve columns mobile-four">
+                                <label for="nome">Nome: </label>
+                                <input type="text" id="nome" placeholder="Digite seu Nome"/>
+                            </div>
+                            <div class="row twelve columns mobile-four">
+                                <label for="email">E-mail:</label>
+                                <input type="email" id="email" placeholder="Digite seu E-mail"/>
+                            </div>
+                            <div class="row twelve columns mobile-four">
+                                <label for="pw">Senha:</label>
+                                <div class="hide-for-small"><input type="password" id="pw" placeholder="Digite sua senha" /></div>
+                                <div class="show-for-small"><input type="text" id="pw" placeholder="Digite sua senha" /></div>
+                            </div>
+                            <div class="row twelve columns mobile-four">
+                                <label for="repw">Repita a senha:</label>
+                                <div class="hide-for-small"><input type="password" id="repw" placeholder="Repita a senha"/></div>
+                                <div class="show-for-small"><input type="text" id="repw" placeholder="Repita a senha"/></div>
+                            </div>
+                            
+                            <div class="row twelve columns mobile-four">
+                                <input type="submit" value="Cadastrar" class="radius button right b-entrar">
+                            </div>
+                        </form>
+                    </div>                      
                 </div>
-
-                <div id="listagem-wrapper"></div>
-
-                <div id="loader" class="twelve columns"></div>
-
-                <div class="row show-for-small">
-                    <div class="twelve columns">
-                        <a href="#" id="b-mais" class="button">Carregar mais Noticias</a>
-                    </div>
-                </div>
-
       		</section>
 
       		<section id="sidebar" role="complementary">
                 <nav id="sideMenu" role="navigation">
-                    <h3>Categorias</h3>
-                    <ul id="sideMainNav" class="nav-bar">
-                        <li><a href="#">Alimentação</a></li>
-                        <li><a href="#">Cultura</a></li>
-                        <li><a href="#">Diversão</a></li>
-                        <li><a href="#">Educação</a></li>
-                        <li><a href="#">Lazer</a></li>
-                        <li><a href="#">Outros</a></li>
-                    </ul>
-                    <h3>Paginas</h3>
                     <ul id="sideMainNav" class="nav-bar">
                         <li><a href="index.html"><i class="foundicon-home"></i>Home</a></li>
-                        <li class="current-page"><a href="locais.html"><i class="foundicon-location"></i>Locais Acessíveis</a></li>
+                        <li><a href="locais.html"><i class="foundicon-location"></i>Locais Acessíveis</a></li>
                         <li><a href="noticias.html"><i class="foundicon-website"></i>Noticias</a></li>
-                        <li><a href="contato.html"><i class="foundicon-mail"></i>Contato</a></li>
+                        <li class="current-page"><a href="contato.html"><i class="foundicon-mail"></i>Contato</a></li>
                         <li><a href="login.html"><i class="foundicon-lock"></i>Login</a></li>
                     </ul>
                 </nav>
-      		</section>
+            </section>
 		</div>
 
         <div class="footer-holder">
