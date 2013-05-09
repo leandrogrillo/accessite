@@ -22,6 +22,7 @@
 - 2.6.1 : Alterado a chamada dos scripts no footer, alteração baseada na versão 2.5.2
 - 2.6.2 : Alterado a chamada do css no header, alteração baseada na versão 2.5.1
 - 2.6.3 : Alterado a chamada das imagens de topo nas internas para a nova forma, alteração baseada na versão 2.5.4
+- 2.6.4 : Ajustes no HTML
 
 #### Versão 2.5
 - 2.5.1 : "Juntado" o offcanvas.css com o app.css para ter apenas um request de css
