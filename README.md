@@ -18,6 +18,9 @@
 
 ### Changelog
 
+#### Versão 2.8
+- 2.8.1 : Alteração no menu do footer, adaptado para o Mobile
+
 #### Versão 2.7
 - 2.7.1 : Teste para imagens com Data URI's. Arquivo "interna-locais.php"
 

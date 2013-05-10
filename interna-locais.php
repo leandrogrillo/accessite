@@ -11,7 +11,7 @@
 
     <title>Nome do Local - AccesSite</title>
 
-    <!-- Included CSS Files -->  
+    <!-- Included CSS Files -->
     <link rel="stylesheet" href="stylesheets/app.css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 
@@ -63,7 +63,7 @@
                 </div>
 
                 <section class="row">
-          
+
                     <article class="twelve columns">
                         <h1>Nome do Estabelecimento</h1>
                         <h2>Qualificação: 10</h2>
@@ -92,7 +92,7 @@
                             <img src="<?php data_uri('images/img-mapa-full.jpg', 'image/jpeg'); ?>" id="testeimg"/>
                         </div>
                     </article>
-                           
+
                 </section>
       		</div>
 
@@ -114,7 +114,7 @@
                         <li><a href="#">Educação</a></li>
                         <li><a href="#">Lazer</a></li>
                         <li><a href="#">Outros</a></li>
-                    </ul>                    
+                    </ul>
                 </nav>
       		</section>
 
@@ -138,7 +138,7 @@
                             </ul>
                         </div>
                     </div>
-                </div> 
+                </div>
             </footer>
         </div>
     </div>
@@ -147,10 +147,10 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="javascripts/foundation/jquery.js"><\/script>')</script>
     <script src="javascripts/build.js"></script>
-    <script src="javascripts/main.js"></script> 
+    <script src="javascripts/main.js"></script>
     <!--[if IE]>
     <script src="javascripts/iefix/matchMedia.js"></script>
     <script src="javascripts/iefix/mobileimg_ie.js"></script>
     <![endif]-->
-    
+
 </body>

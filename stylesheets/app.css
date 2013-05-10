@@ -29,9 +29,9 @@ p a, p a:visited { line-height: inherit; }
   font-size: 25px;
   position: absolute;
   left: 10px;
-   -webkit-transition: 0.15s all linear; 
-   -moz-transition: 0.15s all linear; 
-   -o-transition: 0.15s all linear; 
+   -webkit-transition: 0.15s all linear;
+   -moz-transition: 0.15s all linear;
+   -o-transition: 0.15s all linear;
    transition: 0.15s all linear;
 }
 
@@ -1088,10 +1088,7 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
   .row.collapse .mobile-three { padding: 0; }
   .row .mobile-four { width: 100% !important; float: left; padding: 0 15px; }
   .row .mobile-four:last-child { float: right; }
-  .row .link-list .mobile-four:last-child{ float: none;}
-    .row .link-list .mobile-four{
-      padding: 10px 0;
-    }
+  .row .link-list .mobile-four:last-child{ float: left;}
 
   .row .mobile-four.end { float: left; }
   .row.collapse .mobile-four { padding: 0; }
@@ -1174,11 +1171,11 @@ border-bottom: 0;
 -o-transition: 0.15s all linear;
 transition: 0.15s all linear;}
 
-.nav-bar > li:hover > a, 
+.nav-bar > li:hover > a,
 .nav-bar > li:focus > a,
 .nav-bar > li.current-page > a{
   color: #ff6666;
-} 
+}
 
   .nav-bar > li > a.main { text-align: left; border-top: 1px solid #ddd; border-right: none; }
   .nav-bar > li:first-child > a.main { border-top: none; }
@@ -1309,9 +1306,9 @@ form.custom div.custom.dropdown a.selector{height: 33px;}
 #listagem-wrapper{
   float: left;
   opacity: 0;
-  -webkit-transition: 1s opacity ease-in-out; 
-  -moz-transition: 1s opacity ease-in-out; 
-  -o-transition: 1s opacity ease-in-out; 
+  -webkit-transition: 1s opacity ease-in-out;
+  -moz-transition: 1s opacity ease-in-out;
+  -o-transition: 1s opacity ease-in-out;
   transition: 1s opacity ease-in-out;
 }
 
@@ -1324,9 +1321,9 @@ form.custom div.custom.dropdown a.selector{height: 33px;}
   height: 68px;
   background: url(../images/loader.gif) no-repeat center;
   opacity: 0;
-  -webkit-transition: 0.8s opacity ease-in-out; 
-  -moz-transition: 0.8s opacity ease-in-out; 
-  -o-transition: 0.8s opacity ease-in-out; 
+  -webkit-transition: 0.8s opacity ease-in-out;
+  -moz-transition: 0.8s opacity ease-in-out;
+  -o-transition: 0.8s opacity ease-in-out;
   transition: 0.8s opacity ease-in-out;
 }
 
@@ -1374,15 +1371,17 @@ form.custom div.custom.dropdown a.selector{height: 33px;}
 .footer-holder a:focus{color: #ff6666;}
 
 .imghide{
-  opacity: 0;  
+  opacity: 0;
 }
 
 .imgshow{opacity: 1;
-  -webkit-transition: 0.8s opacity ease-in; 
-  -moz-transition: 0.8s opacity ease-in; 
-  -o-transition: 0.8s opacity ease-in; 
+  -webkit-transition: 0.8s opacity ease-in;
+  -moz-transition: 0.8s opacity ease-in;
+  -o-transition: 0.8s opacity ease-in;
   transition: 0.8s opacity ease-in;
 }
+
+ul.link-list li:nth-child(2){display: none;}
 
 @media only screen and (max-width: 767px) {
   .left.img-institu{margin: 5px 0 15px;}
@@ -1394,15 +1393,15 @@ form.custom div.custom.dropdown a.selector{height: 33px;}
   .row .mobile-four .site-title img,
   h1.site-title{width: 100%;}
 
-  input[type="text"], 
-  input[type="password"], 
-  input[type="date"], 
-  input[type="datetime"], 
-  input[type="email"], 
-  input[type="number"], 
-  input[type="search"], 
-  input[type="tel"], 
-  input[type="time"], 
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
   input[type="url"]{height: 40px;}
 
   span.prefix, span.postfix{height: 40px;}
@@ -1410,6 +1409,29 @@ form.custom div.custom.dropdown a.selector{height: 33px;}
   .img-destaque,
   .img-destaque-interna{display: none;}
   .bg-loader{background: none;}
+
+  ul.link-list li:nth-child(1),
+  ul.link-list li:nth-child(5),
+  ul.link-list li:nth-child(6){
+    display: none;
+  }
+
+  .menu-mobile-footer{padding: 0;}
+  .row .link-list{margin-top: 20px;}
+  .row .link-list .mobile-four{
+    padding: 10px 0;
+    background: #3f3f3f;
+    border-bottom: 1px solid #6e6e6e;
+
+  }
+
+  .row .link-list .mobile-four a{
+    text-align: center;
+  }
+
+  .row .link-list .mobile-four:hover{
+    border-bottom-color: #ff6666;
+  }
 
 }
 
