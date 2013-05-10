@@ -26,6 +26,7 @@
 - 2.8.5 : Adicionado novo footer em todas as páginas
 - 2.8.6 : Alteração de layout nas paginas de locais e noticias, removido padding dos articles
 - 2.8.7 : Alterações gerais de layout para formatação no mobile e desktop
+- 2.8.8 : Removido input de redigir a senha e alterado class na "collapse" para "mobile-collapse" na página de noticias
 
 #### Versão 2.7
 - 2.7.1 : Teste para imagens com Data URI's. Arquivo "interna-locais.php"
