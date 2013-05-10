@@ -85,10 +85,10 @@
 
                         <div class="twelve left">
                             <?php function data_uri($file, $mime) {
-  $contents=file_get_contents($file);
-  $base64=base64_encode($contents);
-  echo "data:$mime;base64,$base64";
-}?>
+                              $contents=file_get_contents($file);
+                              $base64=base64_encode($contents);
+                              echo "data:$mime;base64,$base64";
+                            }?>
                             <img src="<?php data_uri('images/img-mapa-full.jpg', 'image/jpeg'); ?>" id="testeimg"/>
                         </div>
                     </article>
@@ -146,8 +146,8 @@
     <!-- Included JS Files -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="javascripts/foundation/jquery.js"><\/script>')</script>
-    <script src="javascripts/main.js"></script>
     <script src="javascripts/build.js"></script>
+    <script src="javascripts/main.js"></script> 
     <!--[if IE]>
     <script src="javascripts/iefix/matchMedia.js"></script>
     <script src="javascripts/iefix/mobileimg_ie.js"></script>

@@ -1,3 +1,5 @@
+window.scrollTo(0,1);
+
 window.onload = function () {
 
     // Carregamento das Imagens de topo apenas para desktop, via data-* atributo
