@@ -1090,8 +1090,11 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
   .row .mobile-four:last-child { float: right; }
   .row .link-list .mobile-four:last-child{ float: left;}
 
+  .row .mobile-four.item{padding: 0;}]
+
   .row .mobile-four.end { float: left; }
   .row.collapse .mobile-four { padding: 0; }
+  .row.collapse .bt-carregar{padding: 0 15px;}
   .push-one-mobile { left: 25%; }
   .pull-one-mobile { right: 25%; }
   .push-two-mobile { left: 50%; }

@@ -24,6 +24,7 @@
 - 2.8.3 : Alteração de estrutura das páginas de eventos, noticias, interna-noticia, interna-evento
 - 2.8.4 : Adicionado tamanho nas imagens da index, locais e noticias
 - 2.8.5 : Adicionado novo footer em todas as páginas
+- 2.8.6 : Alteração de layout nas paginas de locais e noticias, removido padding dos articles
 
 #### Versão 2.7
 - 2.7.1 : Teste para imagens com Data URI's. Arquivo "interna-locais.php"
