@@ -1383,6 +1383,12 @@ form.custom div.custom.dropdown a.selector{height: 33px;}
 
 ul.link-list li:nth-child(2){display: none;}
 
+.tt-sidebar-locais{
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dddddd;
+}
+
 @media only screen and (max-width: 767px) {
   .left.img-institu{margin: 5px 0 15px;}
   .right.img-institu{margin: 5px 0 15px;}

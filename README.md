@@ -20,6 +20,7 @@
 
 #### Versão 2.8
 - 2.8.1 : Alteração no menu do footer, adaptado para o Mobile
+- 2.8.2 : Alterar a estrutura das páginas de locais.html e interna-locais.html, adicionado sidebar de categorias e banner de publicidade
 
 #### Versão 2.7
 - 2.7.1 : Teste para imagens com Data URI's. Arquivo "interna-locais.php"
