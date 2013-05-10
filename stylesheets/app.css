@@ -1435,6 +1435,8 @@ ul.link-list li:nth-child(2){display: none;}
 
   }
 
+  ul.link-list li:nth-child(2){display: block;}
+
   .row .link-list .mobile-four a{
     text-align: center;
   }

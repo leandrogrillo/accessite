@@ -23,6 +23,7 @@
 - 2.8.2 : Alterar a estrutura das páginas de locais.html e interna-locais.html, adicionado sidebar de categorias e banner de publicidade
 - 2.8.3 : Alteração de estrutura das páginas de eventos, noticias, interna-noticia, interna-evento
 - 2.8.4 : Adicionado tamanho nas imagens da index, locais e noticias
+- 2.8.5 : Adicionado novo footer em todas as páginas
 
 #### Versão 2.7
 - 2.7.1 : Teste para imagens com Data URI's. Arquivo "interna-locais.php"
