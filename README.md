@@ -18,6 +18,9 @@
 
 ### Changelog
 
+#### Versão 2.9
+- 2.9.1 : Teste de implementação de gesture utilizando [Hammerjs](http://eightmedia.github.io/hammer.js/) na home
+
 #### Versão 2.8
 - 2.8.1 : Alteração no menu do footer, adaptado para o Mobile
 - 2.8.2 : Alterar a estrutura das páginas de locais.html e interna-locais.html, adicionado sidebar de categorias e banner de publicidade

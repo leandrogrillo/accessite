@@ -20,6 +20,7 @@ window.onload = function () {
             ImgMobile.classList.add('imgshow');
         }, 1200);
     }
+
     // -----------------------------------------------------
 
     // Carregamento de noticias, eventos e locais acessíveis via ajax para desktop
@@ -90,6 +91,24 @@ window.onload = function () {
 
         }
 
+    }
+
+    if ( mq.matches ) {
+        var element = document.getElementById('mobile-swipe'),
+            body = document.getElementById('page'),
+            sidebar = document.getElementById('sidebar-swipe'),            
+            SwipeRightMenu = Hammer(element).on("swiperight", function(event) {
+                event.gesture.stopPropagation();
+                body.classList.add('active');
+            }),
+            SwipeRightMenu = Hammer(element).on("swipeleft", function(event) {
+                event.gesture.stopPropagation();
+                body.classList.remove('active');
+            }),
+            FastTap = Hammer(element).on("tap", function(event) {
+                location.href = this.href;
+                event.preventDefault();
+            });
     }
     // -----------------------------------------------------
 
