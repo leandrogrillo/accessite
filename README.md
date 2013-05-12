@@ -20,6 +20,7 @@
 
 #### Versão 2.9
 - 2.9.1 : Teste de implementação de gesture utilizando [Hammerjs](http://eightmedia.github.io/hammer.js/) na home
+- 2.9.2 : Ajuste na interna-locais/eventos/noticias para o mobile.
 
 #### Versão 2.8
 - 2.8.1 : Alteração no menu do footer, adaptado para o Mobile
