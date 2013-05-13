@@ -112,15 +112,15 @@ window.onload = function () {
             SwipeRightMenu = Hammer(element).on("swipeleft", function(event) {
                 event.gesture.stopPropagation();
                 body.classList.remove('active');
-            }),
-            FastTap = Hammer(sidebar).on("tap", function(event) {
-                var link = this.href;
-                if ( typeof link != 'undefined' ){
-                    location.href = link;
-                }
-                event.preventDefault();
-                console.log('clicou');
             });
+            // FastTap = Hammer(sidebar).on("tap", function(event) {
+            //     var link = this.href;
+            //     if ( typeof link != 'undefined' ){
+            //         location.href = link;
+            //     }
+            //     event.preventDefault();
+            //     console.log('clicou');
+            // });
     }
     // -----------------------------------------------------
 

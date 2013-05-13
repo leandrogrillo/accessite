@@ -24,6 +24,7 @@
 
 #### Versão 3.0
 - 3.0.1 : Correção do Bug dos links com a implementação do Hammersj
+- 3.0.2 : Ainda com bug do menu no mobile
 
 #### Versão 2.9
 - 2.9.1 : Teste de implementação de gesture utilizando [Hammerjs](http://eightmedia.github.io/hammer.js/) na home

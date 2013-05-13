@@ -1498,6 +1498,7 @@ ul.link-list li:nth-child(2){display: none;}
 }
 
 /* Off canvas layout CSS/JS provided by or adapted from work by Jason Weaver and Luke Wroblewski Requires globals.css grid.css */
+/* Off canvas layout CSS/JS provided by or adapted from work by Jason Weaver and Luke Wroblewski Requires globals.css grid.css */
 body.off-canvas { padding: 0; margin: 0; }
 
 .container { width: 100%; }
@@ -1526,7 +1527,7 @@ body.off-canvas { padding: 0; margin: 0; }
 
 [role="navigation"]#topMenu ul { margin-top: 0; }
 
-[role="complementary"] { margin-left: -100%; width: 80%; float: left; z-index: 2;}
+[role="complementary"] { margin-left: -100%; width: 80%; float: left; }
 
 [role="main"] { margin-left: 0; float: right; z-index: 1; position: relative; }
 
@@ -1548,5 +1549,4 @@ body.off-canvas { padding: 0; margin: 0; }
   .hide-extras [role="main"] { width: 100%; }
   .hide-extras [role="complementary"] { display: none; }
   [role="navigation"]#topMenu { display: none; } }
-
 
