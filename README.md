@@ -22,12 +22,15 @@
 
 ### Changelog
 
+#### Versão 3.0
+- 3.0.1 : Correção do Bug dos links com a implementação do Hammersj
+
 #### Versão 2.9
 - 2.9.1 : Teste de implementação de gesture utilizando [Hammerjs](http://eightmedia.github.io/hammer.js/) na home
 - 2.9.2 : Ajuste na interna-locais/eventos/noticias para o mobile
 - 2.9.3 : Adicionado os comentários na interna de locais, comentarios carregados via ajax.
 - 2.9.4 : Adicionado validação do formulário de contato com "required" do HTML5
-- 2.9.5 : Adicionado o "swipe" em todas as páginas mobile. Implementação do [Hammerjs](http://eightmedia.github.io/hammer.js/) 
+- 2.9.5 : Adicionado o "swipe" em todas as páginas mobile. Implementação do [Hammerjs](http://eightmedia.github.io/hammer.js/)
 - 2.9.6 : Removido o "[Fast Buttons](https://developers.google.com/mobile/articles/fast_buttons)" do main.js
 - 2.9.7 : Ao remover o "[Fast Buttons](https://developers.google.com/mobile/articles/fast_buttons)" do main.js, ele quebra o js, por que precisa por um ";" na linha 114 ao invez de ser ","
 - 2.9.8 : Correção provisória para o "[Fast Buttons](https://developers.google.com/mobile/articles/fast_buttons)" no mobile.

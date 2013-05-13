@@ -93,7 +93,7 @@ window.onload = function () {
                 LoadMaisMobile('listagem-locais');
                 break;
 
-            case "interna-locais": 
+            case "interna-locais":
                 LoadMaisMobile('comentarios-mobile');
                 break;
 
@@ -103,7 +103,8 @@ window.onload = function () {
 
     if ( mq.matches ) {
         var element = document.getElementById('mobile-swipe'),
-            body = document.getElementById('page'),          
+            body = document.getElementById('page'),
+            sidebar = document.getElementById('sideMainNav'),
             SwipeRightMenu = Hammer(element).on("swiperight", function(event) {
                 event.gesture.stopPropagation();
                 body.classList.add('active');
@@ -112,12 +113,13 @@ window.onload = function () {
                 event.gesture.stopPropagation();
                 body.classList.remove('active');
             }),
-            FastTap = Hammer(element).on("tap", function(event) {
+            FastTap = Hammer(sidebar).on("tap", function(event) {
                 var link = this.href;
                 if ( typeof link != 'undefined' ){
                     location.href = link;
-                }                
+                }
                 event.preventDefault();
+                console.log('clicou');
             });
     }
     // -----------------------------------------------------
