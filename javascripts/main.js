@@ -111,11 +111,14 @@ window.onload = function () {
             SwipeRightMenu = Hammer(element).on("swipeleft", function(event) {
                 event.gesture.stopPropagation();
                 body.classList.remove('active');
+            }),
+            FastTap = Hammer(element).on("tap", function(event) {
+                var link = this.href;
+                if ( typeof link != 'undefined' ){
+                    location.href = link;
+                }                
+                event.preventDefault();
             });
-            // FastTap = Hammer(element).on("tap", function(event) {
-            //     location.href = this.href;
-            //     event.preventDefault();
-            // });
     }
     // -----------------------------------------------------
 
