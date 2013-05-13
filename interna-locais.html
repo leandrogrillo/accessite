@@ -7,7 +7,7 @@
     <meta charset="utf-8" />
 
     <!-- Set the viewport width to device width for mobile -->
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Nome do Local - AccesSite</title>
 
@@ -19,7 +19,7 @@
 
 </head>
 
-<body id="page" class="off-canvas hide-extras">
+<body id="page" class="off-canvas hide-extras" data-guia="interna-locais">
 	<div class="container">
 
 		<div class="header-holder">
@@ -90,7 +90,24 @@
 
                             <div id="comments" class="twelve left">
                                 <h3>3 Comentários</h3>
+                                <div class="twelve left mobile-four">
+                                    <textarea id="comentário" placeholder="Digite seu Comentário" class="twelve"></textarea>
+                                </div>
+                                <div class="two right mobile-four">
+                                    <input type="submit" value="Comentar" class="radius button right b-comentar">
+                                </div>
 
+                                <div class="twelve left hide-for-small"><hr /></div>
+
+                                <div id="listagem-wrapper" class="twelve left"></div>
+
+                                <div class="row mobile-four"><div id="loader" class="twelve columns"></div></div>
+
+                                <div class="twevel show-for-small">
+                                    <div class="twelve mobile-four columns">
+                                        <a href="#" id="b-mais" class="button">Carregar Comentários</a>
+                                    </div>
+                                </div>
                             </div>
                         </article>
                     </div>
@@ -98,12 +115,8 @@
                     <div class="two columns hide-for-small">
                         <h3 class="tt-sidebar-locais">Categorias</h3>
                         <ul class="side-nav">
-                            <li><a href="#">Alimentação</a></li>
-                            <li><a href="#">Cultura</a></li>
-                            <li><a href="#">Diversão</a></li>
-                            <li><a href="#">Educação</a></li>
-                            <li><a href="#">Lazer</a></li>
-                            <li><a href="#">Outros</a></li>
+                            <li><a href="#">Bares</a></li>
+                            <li><a href="#">Restaurantes</a></li>
                         </ul>
 
                         <img src="http://placehold.it/141x274&amp;text=[Publicidade]" width="141" height="274" />
@@ -124,12 +137,8 @@
                     </ul>
                     <h3>Categorias</h3>
                     <ul id="sideMainNav" class="nav-bar">
-                        <li><a href="#">Alimentação</a></li>
-                        <li><a href="#">Cultura</a></li>
-                        <li><a href="#">Diversão</a></li>
-                        <li><a href="#">Educação</a></li>
-                        <li><a href="#">Lazer</a></li>
-                        <li><a href="#">Outros</a></li>
+                        <li><a href="#">Bares</a></li>
+                        <li><a href="#">Restaurantes</a></li>
                     </ul>
                 </nav>
       		</section>

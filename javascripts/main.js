@@ -73,6 +73,10 @@ window.onload = function () {
                 LoadMais('listagem-locais', 1000);
                 break;
 
+            case "interna-locais":
+                LoadMais('comentarios-desktop', 1000);
+                break;
+
         }
     } else {
 
@@ -87,6 +91,10 @@ window.onload = function () {
 
             case "locais":
                 LoadMaisMobile('listagem-locais');
+                break;
+
+            case "interna-locais": 
+                LoadMaisMobile('comentarios-mobile');
                 break;
 
         }

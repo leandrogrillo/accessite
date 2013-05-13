@@ -7,6 +7,7 @@
 - [jQuery](https://github.com/jquery/jquery)
 - Javascript
 - [matchMedia() polyfill by Paul Irish](https://github.com/paulirish/matchMedia.js)
+- [Hammerjs](http://eightmedia.github.io/hammer.js/)
 
 ### Site testado nos browsers:
 - IE8,IE9 e IE10
@@ -20,7 +21,9 @@
 
 #### Versão 2.9
 - 2.9.1 : Teste de implementação de gesture utilizando [Hammerjs](http://eightmedia.github.io/hammer.js/) na home
-- 2.9.2 : Ajuste na interna-locais/eventos/noticias para o mobile.
+- 2.9.2 : Ajuste na interna-locais/eventos/noticias para o mobile
+- 2.9.3 : Adicionado os comentários na interna de locais, comentarios carregados via ajax.
+- 2.9.4 : Adicionado validação do formulário de contato com "required" do HTML5
 
 #### Versão 2.8
 - 2.8.1 : Alteração no menu do footer, adaptado para o Mobile
