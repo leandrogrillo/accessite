@@ -103,8 +103,7 @@ window.onload = function () {
 
     if ( mq.matches ) {
         var element = document.getElementById('mobile-swipe'),
-            body = document.getElementById('page'),
-            sidebar = document.getElementById('sidebar-swipe'),            
+            body = document.getElementById('page'),          
             SwipeRightMenu = Hammer(element).on("swiperight", function(event) {
                 event.gesture.stopPropagation();
                 body.classList.add('active');
@@ -113,10 +112,10 @@ window.onload = function () {
                 event.gesture.stopPropagation();
                 body.classList.remove('active');
             }),
-            FastTap = Hammer(element).on("tap", function(event) {
-                location.href = this.href;
-                event.preventDefault();
-            });
+            // FastTap = Hammer(element).on("tap", function(event) {
+            //     location.href = this.href;
+            //     event.preventDefault();
+            // });
     }
     // -----------------------------------------------------
 

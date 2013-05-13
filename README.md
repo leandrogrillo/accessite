@@ -17,6 +17,9 @@
 - Safari Mobile
 - Chrome Mobile
 
+### Bugs
+- Ao implementar o Hammerjs, ele cria uma área clicavel aonde não existe um menu, porem essa área sem nada, aciona o menu quando o "fast tap" é implementado.
+
 ### Changelog
 
 #### Versão 2.9
@@ -24,6 +27,7 @@
 - 2.9.2 : Ajuste na interna-locais/eventos/noticias para o mobile
 - 2.9.3 : Adicionado os comentários na interna de locais, comentarios carregados via ajax.
 - 2.9.4 : Adicionado validação do formulário de contato com "required" do HTML5
+- 2.9.5 : Adicionado o "swipe" em todas as páginas mobile.
 
 #### Versão 2.8
 - 2.8.1 : Alteração no menu do footer, adaptado para o Mobile
