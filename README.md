@@ -31,6 +31,8 @@
 - 2.9.6 : Removido o "[Fast Buttons](https://developers.google.com/mobile/articles/fast_buttons)" do main.js
 - 2.9.7 : Ao remover o "[Fast Buttons](https://developers.google.com/mobile/articles/fast_buttons)" do main.js, ele quebra o js, por que precisa por um ";" na linha 114 ao invez de ser ","
 - 2.9.8 : Correção provisória para o "[Fast Buttons](https://developers.google.com/mobile/articles/fast_buttons)" no mobile.
+- 2.9.9 : Problemas ao clicar nos links após implementação do [Hammerjs](http://eightmedia.github.io/hammer.js/)
+
 
 #### Versão 2.8
 - 2.8.1 : Alteração no menu do footer, adaptado para o Mobile
