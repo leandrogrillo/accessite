@@ -25,6 +25,7 @@
 #### Versão 3.1
 - 3.1.1 : Removido o Hammerjs por motivos de Bug
 - 3.1.2 : Alteração do nome "Locais Acessíveis" para "Acessibilidade"
+- 3.1.3 : Adicionado botão de login e cadastro
 
 #### Versão 3.0
 - 3.0.1 : Correção do Bug dos links com a implementação do Hammersj

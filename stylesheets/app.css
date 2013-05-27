@@ -1428,6 +1428,17 @@ ul.link-list li:nth-child(2){display: none;}
   padding: 0 10px 0 10px;
 }
 
+#header{
+  position: relative;
+}
+
+#header .b-admin{
+  position: absolute;
+  right: 0;
+  background: #373b43;
+}
+
+
 @media only screen and (max-width: 767px) {
   .left.img-institu{margin: 5px 0 15px;}
   .right.img-institu{margin: 5px 0 15px;}
