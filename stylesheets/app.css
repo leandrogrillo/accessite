@@ -1428,15 +1428,23 @@ ul.link-list li:nth-child(2){display: none;}
   padding: 0 10px 0 10px;
 }
 
-#header{
-  position: relative;
-}
+
+.header-holder{border-top: 2px solid #3f434b;}
+
+#header{position: relative;}
+
+#header.row{overflow: inherit; }
 
 #header .b-admin{
+  padding: 6px 8px;
   position: absolute;
-  right: 0;
-  background: #373b43;
+  right: -155px;
+  background: #3f434b;
+  z-index: 10;
+  color: #fff;
 }
+#header .b-admin a{color: #fff;}
+#header .b-admin a:hover{color: #ff6666;}
 
 
 @media only screen and (max-width: 767px) {
