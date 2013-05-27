@@ -101,27 +101,6 @@ window.onload = function () {
 
     }
 
-    if ( mq.matches ) {
-        var element = document.getElementById('mobile-swipe'),
-            body = document.getElementById('page'),
-            sidebar = document.getElementById('sideMainNav'),
-            SwipeRightMenu = Hammer(element).on("swiperight", function(event) {
-                event.gesture.stopPropagation();
-                body.classList.add('active');
-            }),
-            SwipeRightMenu = Hammer(element).on("swipeleft", function(event) {
-                event.gesture.stopPropagation();
-                body.classList.remove('active');
-            });
-            // FastTap = Hammer(sidebar).on("tap", function(event) {
-            //     var link = this.href;
-            //     if ( typeof link != 'undefined' ){
-            //         location.href = link;
-            //     }
-            //     event.preventDefault();
-            //     console.log('clicou');
-            // });
-    }
     // -----------------------------------------------------
 
 }

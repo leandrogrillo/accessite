@@ -22,6 +22,9 @@
 
 ### Changelog
 
+#### Versão 3.1
+- 3.1.1 : Removido o Hammerjs por motivos de Bug.
+
 #### Versão 3.0
 - 3.0.1 : Correção do Bug dos links com a implementação do Hammersj
 - 3.0.2 : Ainda com bug do menu no mobile
