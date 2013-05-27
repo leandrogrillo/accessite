@@ -131,7 +131,7 @@
                             <ul class="link-list right">
                                 <li class="mobile-four"><a href="institucional.html">Institucional</a></li>
                                 <li class="mobile-four"><a href="index.html">Home</a></li>
-                                <li class="mobile-four"><a href="locais.html">Locais Acessíveis</a></li>
+                                <li class="mobile-four"><a href="locais.html">Acessibilidade</a></li>
                                 <li class="mobile-four"><a href="noticias.html">Noticias</a></li>
                                 <li class="mobile-four"><a href="eventos.html">Eventos</a></li>
                                 <li class="mobile-four"><a href="parceiros.html">Parceiros</a></li>
