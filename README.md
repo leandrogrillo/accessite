@@ -17,7 +17,7 @@
 - Safari Mobile
 - Chrome Mobile
 
-### Bugs
+### Bugs * Removido
 - Ao implementar o Hammerjs, ele cria uma área clicavel aonde não existe um menu, porem essa área sem nada, aciona o menu quando o "[Fast Buttons](https://developers.google.com/mobile/articles/fast_buttons)" é implementado. Ver Changelog 2.9.8.
 
 ### Changelog
@@ -26,6 +26,7 @@
 - 3.1.1 : Removido o Hammerjs por motivos de Bug
 - 3.1.2 : Alteração do nome "Locais Acessíveis" para "Acessibilidade"
 - 3.1.3 : Adicionado botão de login e cadastro
+- 3.1.4 : Adicionado botão de login e cadastro em todas as páginas
 
 #### Versão 3.0
 - 3.0.1 : Correção do Bug dos links com a implementação do Hammersj

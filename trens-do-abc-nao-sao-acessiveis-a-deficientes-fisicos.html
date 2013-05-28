@@ -9,7 +9,7 @@
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width" />
 
-    <title>Nome do Local - AccesSite</title>
+    <title>Trens do ABC não são acessíveis a deficientes físicos - AccesSite</title>
 
     <!-- Included CSS Files -->
     <link rel="stylesheet" href="stylesheets/app.css">
@@ -24,6 +24,7 @@
 
 		<div class="header-holder">
             <header id="header" class="row">
+                <div class="b-admin"><a href="login.html">Login</a> / <a href="cadastro.html">Cadastre-se</a></div>
                 <div class="four columns mobile-four">
                     <a href="index.html" class="site-title"><img src="http://placehold.it/238x91&amp;text=Logo" alt="Accessite"></a>
                 </div>
@@ -31,8 +32,8 @@
                     <nav id="menu" role="navigation" class="right hide-for-small">
                         <ul id="mainNav" class="nav-bar">
                             <li><a href="institucional.html">Institucional</a></li>
-                            <li class="current-page"><a href="locais.html">Locais Acessíveis</a></li>
-                            <li><a href="noticias.html">Noticias</a></li>
+                            <li><a href="locais.html">Acessibilidade</a></li>
+                            <li class="current-page"><a href="noticias.html">Noticias</a></li>
                             <li><a href="eventos.html">Eventos</a></li>
                             <li><a href="parceiros.html">Parceiros</a></li>
                             <li><a href="contato.html">Contato</a></li>
@@ -53,7 +54,7 @@
             </header>
         </div>
 
-		<div class="row">
+		<div class="row" id="mobile-swipe">
       		<div role="main">
                 <div class="row">
                     <div class="twelve columns">
@@ -62,63 +63,48 @@
                     </div>
                 </div>
 
-                <section class="row">
+                <section class="row mobile-collapse">
 
-                    <article class="twelve columns">
-                        <h1>Nome do Estabelecimento</h1>
-                        <h2>Qualificação: 10</h2>
+                    <div class="ten left mobile-four">
+                        <article class="twelve columns">
+                            <h1>Trens do ABC não são acessíveis a deficientes físicos</h1>
+                            <img src="images/trens-do-abc-nao-sao-acessiveis-a-deficientes-fisicos.jpg" height="225" width="300" class="left img-institu mobile-four th"/>
+                            <p>Cadeirantes encontram dificuldades nas estações de trem do ABC – <em>Foto: Rafael Noguera</em></p>
 
-                        <p>Endereço: Rua Lorem Ipsum, Bairro Amet.</p>
+                            <p>As estações da CPTM (Companhia Paulista de Trens Metropolitanos) que atendem à região do ABC não oferecem acesso a quem possui deficiência física ou mobilidade reduzida. </p>
 
-                        <h3>O Local</h3>
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef. Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                            <p>O acesso do trem para fora das estações é feito por escadas. Usuários com dificuldades de locomoção ou cadeirantes precisam ser carregados por funcionários, seguranças ou até mesmo por passageiros presentes no local.</p>
 
-                        <div class="row twelve columns galeria-locais">
-                            <div class="three columns"><img src="http://placehold.it/400x300&text=[thumb local]" width="400" height="300"/></div>
-                            <div class="three columns"><img src="http://placehold.it/400x300&text=[thumb local]" width="400" height="300"/></div>
-                            <div class="three columns"><img src="http://placehold.it/400x300&text=[thumb local]" width="400" height="300"/></div>
-                            <div class="three columns"><img src="http://placehold.it/400x300&text=[thumb local]" width="400" height="300"/></div>
-                        </div>
+                            <p>Os cadeirantes afirmam que o atendimento dos funcionários costuma demorar. “Tenho que ficar lá esperando um tempão. Têm boa vontade, mas não é uma coisa fácil, tem muita escadaria, a cadeira é pesada e é arriscado”, diz Tuca Munhoz, usuário do sistema e coordenador da ONG Instituto MID  - Para a participação social das pessoas com deficiência. Ouça abaixo a reportagem completa. </p>
 
-                        <h4>Acessibilidade do Local</h4>
-                        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef. Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+                            <p>O decreto nº 5.296, de 2 de dezembro de 2004, diz que “a frota de veículos de transporte coletivo ferroviário e a infraestrutura de seus serviços deverão estar totalmente acessíveis aos portadores de deficiência no prazo máximo de cento e vinte meses”.</p>
 
-                        <div class="twelve left">
-                            <?php function data_uri($file, $mime) {
-                              $contents=file_get_contents($file);
-                              $base64=base64_encode($contents);
-                              echo "data:$mime;base64,$base64";
-                            }?>
-                            <img src="<?php data_uri('images/img-mapa-full.jpg', 'image/jpeg'); ?>" id="testeimg"/>
-                        </div>
-                    </article>
+                            <p>A CPTM afirma que está respeitando a lei e que, até 2014, todas as estações estarão plenamente acessíveis. A empresa diz também que os funcionários são treinados para ajudar os portadores de necessidades especiais a terem acesso aos trens.</p>
+
+                            <p><em>Fonte <a href="http://www.metodista.br/rronline/noticias/cidades/2010/09/trens-do-abc-nao-sao-acessiveis-a-deficientes-fisicos">Metodista</a>.</em></p>
+                        </article>
+                    </div>
+
+                    <div class="two columns hide-for-small">
+                        <img src="http://placehold.it/141x274&amp;text=[Publicidade]" width="141" height="274" class="img-pub"/>
+                        <img src="http://placehold.it/141x274&amp;text=[Publicidade]" width="141" height="274" class="img-pub"/>
+                    </div>
 
                 </section>
       		</div>
 
       		<section id="sidebar" role="complementary">
                 <nav id="sideMenu" role="navigation">
-                    <h3>Paginas</h3>
                     <ul id="sideMainNav" class="nav-bar">
                         <li><a href="index.html"><i class="foundicon-home"></i>Home</a></li>
-                        <li class="current-page"><a href="locais.html"><i class="foundicon-location"></i>Locais Acessíveis</a></li>
-                        <li><a href="noticias.html"><i class="foundicon-website"></i>Noticias</a></li>
+                        <li><a href="locais.html"><i class="foundicon-location"></i>Acessibilidade</a></li>
+                        <li class="current-page"><a href="noticias.html"><i class="foundicon-website"></i>Noticias</a></li>
                         <li><a href="contato.html"><i class="foundicon-mail"></i>Contato</a></li>
                         <li><a href="login.html"><i class="foundicon-lock"></i>Login</a></li>
                     </ul>
-                    <h3>Categorias</h3>
-                    <ul id="sideMainNav" class="nav-bar">
-                        <li><a href="#">Alimentação</a></li>
-                        <li><a href="#">Cultura</a></li>
-                        <li><a href="#">Diversão</a></li>
-                        <li><a href="#">Educação</a></li>
-                        <li><a href="#">Lazer</a></li>
-                        <li><a href="#">Outros</a></li>
-                    </ul>
                 </nav>
-      		</section>
-
-    	</div>
+            </section>
+		</div>
 
         <div class="footer-holder">
             <footer class="row">
