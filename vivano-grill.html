@@ -70,7 +70,7 @@
                             <h1>Vivano Grill</h1>
                             <h2>Qualificação: 10</h2>
 
-                            <p>Endereço: Rua Lorem Ipsum, Bairro Amet.</p>
+                            <p>Endereço: Av. Goiás, 1135 - São Caetano do Sul – SP.</p>
 
                             <h3>O Local</h3>
                             <p>Vivano Grill Churrascaria está há mais de 10 anos em São Caetano do Sul. É hoje uma referência de qualidade e tradição.</p>
@@ -93,12 +93,38 @@
 
                             <div id="comments" class="twelve left">
                                 <h3>3 Comentários</h3>
-                                <div class="twelve left mobile-four">
-                                    <textarea id="comentário" placeholder="Digite seu Comentário" class="twelve"></textarea>
-                                </div>
-                                <div class="two right mobile-four">
-                                    <input type="submit" value="Comentar" class="radius button right b-comentar">
-                                </div>
+                                <form action="" class="custom">
+                                    <div class="twelve row left mobile-four">
+                                        <label for="nome">Nome: </label>
+                                        <input type="text" id="nome" placeholder="Digite seu Nome" required/>
+                                    </div>
+                                    <div class="ten row left mobile-four">
+                                        <label for="email">E-mail: </label>
+                                        <input type="email" id="email" placeholder="Digite seu E-mail" required/>
+                                    </div>
+                                    <div class="two row columns mobile-four">
+                                        <label for="estado">Nota:</label>
+                                        <select name="estado" id="estado">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                        </select>
+                                    </div>
+                                   
+                                    <div class="twelve left mobile-four">
+                                        <textarea id="comentário" placeholder="Digite seu Comentário" class="twelve"></textarea>
+                                    </div>
+                                    <div class="two right mobile-four">
+                                        <input type="submit" value="Comentar" class="radius button right b-comentar">
+                                    </div>
+                                </form>
 
                                 <div class="twelve left hide-for-small"><hr /></div>
 

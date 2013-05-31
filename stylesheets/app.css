@@ -1344,6 +1344,7 @@ form.custom div.custom.dropdown a.selector{height: 33px;}
   display: none;
 }
 
+#sidebarButton{clear: both; /*firefox button fix*/}
 
 .bg-loader{
   background-repeat: no-repeat;
