@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Vivano Grill - AccesSite</title>
+
+    <!-- Included CSS Files -->
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+    <script src="javascripts/foundation/modernizr.foundation.js"></script>
+
+</head>
+
+<body id="page" class="off-canvas hide-extras" data-guia="interna-locais">
+	<div class="container">
+
+		<div class="header-holder">
+            <header id="header" class="row">
+                <div class="b-admin hide-for-small"><a href="login.html">Login</a> / <a href="cadastro.html">Cadastre-se</a></div>
+                <div class="four columns mobile-four">
+                    <a href="index.html" class="site-title"><img src="images/logo.png" alt="Accessite"></a>
+                </div>
+                <div class="eight columns phone-two">
+                    <nav id="menu" role="navigation" class="right hide-for-small">
+                        <ul id="mainNav" class="nav-bar">
+                            <li><a href="institucional.html">Institucional</a></li>
+                            <li class="current-page"><a href="locais.html">Acessibilidade</a></li>
+                            <li><a href="noticias.html">Noticias</a></li>
+                            <li><a href="eventos.html">Eventos</a></li>
+                            <li><a href="parceiros.html">Parceiros</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                    <p class="show-for-small">
+                    <a class='sidebar-button button' id="sidebarButton" href="#sidebar" >Menu</a>
+                    </p>
+                </div>
+                <div class="five columns hide-for-small">
+                    <form action="resultado-busca-locais.html" name="form-busca" id="form-busca">
+                        <div class="row collapse">
+                            <div class="left nine"><input type="search" name="busca" id="busca" placeholder="O que está Procurando?"></div>
+                            <div class="right"><input type="submit" value="Buscar" class="postfix button"></div>
+                        </div>
+                    </form>
+                </div>
+            </header>
+        </div>
+
+		<div class="row" id="mobile-swipe">
+      		<div role="main">
+                <div class="row">
+                    <div class="twelve columns">
+                        <div class="img-destaque-interna bg-loader mobileimg" data-srcfull="images/topo.jpg" data-widthfull="994" data-heightfull="298"></div>
+                        <span class="hide-for-small"><hr /></span>
+                    </div>
+                </div>
+
+                <section class="row mobile-collapse">
+
+                    <div class="ten right mobile-four">
+                        <article class="twelve columns">
+                            <h1>Vivano Grill</h1>
+                            <h2>Qualificação: 10</h2>
+
+                            <p>Endereço: Rua Lorem Ipsum, Bairro Amet.</p>
+
+                            <h3>O Local</h3>
+                            <p>Vivano Grill Churrascaria está há mais de 10 anos em São Caetano do Sul. É hoje uma referência de qualidade e tradição.</p>
+
+                            <p>A casa conta com um salão com capacidade para mais de 500 pessoas, sob um teto todo trabalhado em gesso, compondo uma decoração moderna e aconchegante. Faz parte ainda da decoração do salão diversos quadros que contam a história de São Caetano do Sul através de imagens cedidas pela Fundação Pró-Memória especialmente para a casa. O constante aperfeiçoamento e a preocupação com todos os detalhes são hoje marca registrada Vivano Grill para agradar aos olhos e ao paladar de todos os seus clientes. E isto se dá tanto pela qualidade e agilidade do seu atendimento, localização privilegiada, na instalação moderna e requintada, quanto pela qualidade e variedade de suas carnes nobres, buffet de saladas e pratos quentes. </p>
+
+                            <div class="row twelve columns galeria-locais">
+                                <div class="three columns"><img src="images/locais/vivano.jpg" width="400" height="300" width="218" height="164"/></div>
+                                <div class="three columns"><img src="images/locais/vivano2.jpg" width="400" height="300" width="218" height="164"/></div>
+                                <div class="three columns"><img src="images/locais/vivano3.jpg" width="400" height="300" width="218" height="164"/></div>
+                                <div class="three columns"><img src="images/locais/vivano3.jpg" width="400" height="300" width="218" height="164"/></div>
+                            </div>
+
+                            <h4>Acessibilidade do Local</h4>
+                            <p>Nossa casa possui acesso por rampas e banheiro exclusivos para necessidades especiais, o que facilita a locomoção de clientes com deficiência física.</p>
+
+                            <div class="twelve left">
+                                <img src="images/locais/vivano-mapa.jpg" id="testeimg"/>
+                            </div>
+
+                            <div id="comments" class="twelve left">
+                                <h3>3 Comentários</h3>
+                                <div class="twelve left mobile-four">
+                                    <textarea id="comentário" placeholder="Digite seu Comentário" class="twelve"></textarea>
+                                </div>
+                                <div class="two right mobile-four">
+                                    <input type="submit" value="Comentar" class="radius button right b-comentar">
+                                </div>
+
+                                <div class="twelve left hide-for-small"><hr /></div>
+
+                                <div id="listagem-wrapper" class="twelve left"></div>
+
+                                <div class="row mobile-four"><div id="loader" class="twelve columns"></div></div>
+
+                                <div class="twevel show-for-small">
+                                    <div class="twelve mobile-four columns">
+                                        <a href="#" id="b-mais" class="button">Carregar Comentários</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="two columns hide-for-small">
+                        <h3 class="tt-sidebar-locais">Categorias</h3>
+                        <ul class="side-nav">
+                            <li><a href="#">Bares</a></li>
+                            <li><a href="#">Restaurantes</a></li>
+                        </ul>
+
+                        <img src="http://placehold.it/141x274&amp;text=[Publicidade]" width="141" height="274" />
+                    </div>
+
+                </section>
+      		</div>
+
+      		<section id="sidebar" role="complementary">
+                <nav id="sideMenu" role="navigation">
+                    <h3>Paginas</h3>
+                    <ul id="sideMainNav" class="nav-bar">
+                        <li><a href="index.html"><i class="foundicon-home"></i>Home</a></li>
+                        <li class="current-page"><a href="locais.html"><i class="foundicon-location"></i>Acessibilidade</a></li>
+                        <li><a href="noticias.html"><i class="foundicon-website"></i>Noticias</a></li>
+                        <li><a href="contato.html"><i class="foundicon-mail"></i>Contato</a></li>
+                        <li><a href="login.html"><i class="foundicon-lock"></i>Login</a></li>
+                    </ul>
+                    <h3>Categorias</h3>
+                    <ul id="sideMainNav" class="nav-bar nav-bar-complementar">
+                        <li><a href="#">Bares</a></li>
+                        <li><a href="#">Restaurantes</a></li>
+                    </ul>
+                </nav>
+      		</section>
+
+    	</div>
+
+        <div class="footer-holder">
+            <footer class="row">
+                <div class="twelve columns">
+                    <div class="row">
+                        <div class="five columns">
+                            <img src="images/footer-instituto.png" alt="Instituto Felipe Stelzer">
+                        </div>
+                        <div class="seven columns menu-mobile-footer">
+                            <ul class="link-list right">
+                                <li class="mobile-four"><a href="institucional.html">Institucional</a></li>
+                                <li class="mobile-four"><a href="index.html">Home</a></li>
+                                <li class="mobile-four"><a href="locais.html">Acessibilidade</a></li>
+                                <li class="mobile-four"><a href="noticias.html">Noticias</a></li>
+                                <li class="mobile-four"><a href="eventos.html">Eventos</a></li>
+                                <li class="mobile-four"><a href="parceiros.html">Parceiros</a></li>
+                                <li class="mobile-four"><a href="contato.html">Contato</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Included JS Files -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="javascripts/foundation/jquery.js"><\/script>')</script>
+    <script src="javascripts/build.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if IE]>
+    <script src="javascripts/iefix/matchMedia.js"></script>
+    <script src="javascripts/iefix/mobileimg_ie.js"></script>
+    <![endif]-->
+
+</body>
