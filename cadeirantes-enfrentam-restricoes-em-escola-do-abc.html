@@ -9,7 +9,7 @@
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width" />
 
-    <title>Login - AccesSite</title>
+    <title>Cadeirantes enfrentam restrições em escola do ABC - AccesSite</title>
 
     <!-- Included CSS Files -->
     <link rel="stylesheet" href="stylesheets/app.css">
@@ -33,14 +33,14 @@
                         <ul id="mainNav" class="nav-bar">
                             <li><a href="institucional.html">Institucional</a></li>
                             <li><a href="locais.html">Acessibilidade</a></li>
-                            <li><a href="noticias.html">Noticias</a></li>
+                            <li class="current-page"><a href="noticias.html">Noticias</a></li>
                             <li><a href="eventos.html">Eventos</a></li>
                             <li><a href="parceiros.html">Parceiros</a></li>
                             <li><a href="contato.html">Contato</a></li>
                         </ul>
                     </nav>
                     <p class="show-for-small">
-                        <a class='sidebar-button button' id="sidebarButton" href="#sidebar" >Menu</a>
+                    <a class='sidebar-button button' id="sidebarButton" href="#sidebar" >Menu</a>
                     </p>
                 </div>
                 <div class="five columns hide-for-small">
@@ -54,55 +54,49 @@
             </header>
         </div>
 
-		<div class="row">
+		<div class="row" id="mobile-swipe">
       		<div role="main">
                 <div class="row">
                     <div class="twelve columns">
-                        <div class="img-destaque-interna bg-loader mobileimg" data-srcfull="http://placehold.it/994x298&text=[Topo area restrita]" data-widthfull="994" data-heightfull="298"></div>
+                        <div class="img-destaque-interna bg-loader mobileimg" data-srcfull="http://placehold.it/994x298&text=[Topo de Noticias]" data-widthfull="994" data-heightfull="298"></div>
                         <span class="hide-for-small"><hr /></span>
                     </div>
                 </div>
 
-                <section class="row">
-                    <div class="twelve columns">
-                        <h1>Área Restrita</h1>
-                        <p class="hide-for-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, soluta, reiciendis, est, suscipit deleniti possimus optio adipisci obcaecati cum consectetur dolore ad dolores culpa delectus quam aliquam ullam maiores tempora.</p>
+                <section class="row mobile-collapse">
+
+                    <div class="ten left mobile-four">
+                        <article class="twelve columns">
+                            <h1>Cadeirantes enfrentam restrições em escola do ABC</h1>
+                            <img src="images/cadeirantes-enfrentam-restricoes-em-escola-do-abc.jpg" alt="Cadeirantes enfrentam restrições em escola do ABC" class="left img-institu mobile-four th">
+
+                            <p>O estudante Deivid Alves dos Santos não vai à escola há cerca de dois meses. Ele e outros quatro colegas, todos cadeirantes, estão impedidos de aprender porque o elevador da EE Palmira Grassioto, no Parque São Bernardo, em São Bernardo, está quebrado.</p>
+
+                            <p>Esta não é a primeira vez que o problema acontece. Segundo a mãe do estudante, que sofre de distrofia muscular, a manicure Vanessa Alves dos Santos, 30, Deivid ficou sem ir à escola por 45 dias no ano passado devido ao mesmo problema. "Já procurei a diretoria e sempre escuto que não há o que fazer."</p>
+
+                            <p>O menino chegou a frequentar a escola por uma semana mesmo com o elevador quebrado, no entanto, a mãe preferiu deixá-lo em casa ao saber que ele ficava no pátio no período da tarde (entre 13h e 18h), enquanto os colegas de sala aprendiam. "Se é para não fazer nada, ele fica em casa."</p>
+
+                            <p>A rotina de Deivid só não sofreu alteração pela manhã, quando ele fica com a avó para que a mãe trabalhe. À tarde, no entanto, ao invés de frequentar as aulas, ele assiste à televisão, brinca com os amigos na rua ou fica no computador. Apesar do tempo disponível, o garoto considera ruim não ir para a aula.</p>
+
+                            <p>Na tentativa de resolver o problema, Vanessa tentou transferir o filho para outra unidade de ensino, mais próxima de casa, porém, não obteve sucesso. A alegação é que não há vagas para o 6º ano.</p>
+    
+                            <h2>OUTRO LADO</h2>
+
+                            <p>A Secretaria Estadual da Educação informou que, tão logo tomou conhecimento dos fatos, determinou que seja feita apuração de responsabilidades e que sejam adotadas, em caráter emergencial, medidas necessárias para atender adequadamente os alunos cadeirantes.</p>
+
+                            <p>Será feita reunião na segunda-feira entre a diretoria de ensino, a direção da unidade e os pais dos cinco alunos cadeirantes para propor a transferência para unidade próxima que dispõe de acessibilidade adequada.</p>
+
+                            <p>Conforme o Estado, o conteúdo não ministrado aos estudantes será reposto e a escola receberá vistoria para que o elevador seja consertado na próxima semana.</p>
+
+                            <p><em>Fonte <a href="http://www.seuplaneta.com.br/ABC/2013/04/o-bilhete-unico-mensal-valera-por-31-dias-um-a-mais-do-que-o-anunciado-previamente-pela-prefeitura-a-partir-de-segundafeira-os-interessados-poderao-se-cadastrar-no-site-da-sao-paulo-transporte-sptrans-bilheteunicosptranscombr-mas-mesmo-com-a-">Seu Planeta</a>.</em></p>
+                        </article>
                     </div>
 
-                    <div class="row">
-                        <form class="five columns centered mobile-four custom">
-                        <div class="row twelve columns">
-                            <div class="row collapse">
-                                <div class="two mobile-one columns">
-                                    <span class="prefix">Login:</span>
-                                </div>
-                                <div class="ten mobile-three columns">
-                                    <input type="text" id="login" placeholder="Digite seu Login"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row twelve columns">
-                            <div class="row collapse">
-                                <div class="two mobile-one columns">
-                                    <span class="prefix">Senha:</span>
-                                </div>
-                                <div class="ten mobile-three columns">
-                                    <input type="text" id="senha" placeholder="Digite sua Senha"/>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row twelve columns">
-                            <ul class="left">
-                                <li><a href="cadastro.html">Não tem login? Cadastre-se</a></li>
-                                <li><a href="cadastro.html">Esqueceu sua senha?</a></li>
-                            </ul>
-                            
-                            <input type="submit" value="Entrar" class="radius button right b-entrar">
-                        </div>
-
-                        </form>
+                    <div class="two columns hide-for-small">
+                        <img src="http://placehold.it/141x274&amp;text=[Publicidade]" width="141" height="274" class="img-pub"/>
+                        <img src="http://placehold.it/141x274&amp;text=[Publicidade]" width="141" height="274" class="img-pub"/>
                     </div>
+
                 </section>
       		</div>
 
@@ -111,9 +105,9 @@
                     <ul id="sideMainNav" class="nav-bar">
                         <li><a href="index.html"><i class="foundicon-home"></i>Home</a></li>
                         <li><a href="locais.html"><i class="foundicon-location"></i>Acessibilidade</a></li>
-                        <li><a href="noticias.html"><i class="foundicon-website"></i>Noticias</a></li>
+                        <li class="current-page"><a href="noticias.html"><i class="foundicon-website"></i>Noticias</a></li>
                         <li><a href="contato.html"><i class="foundicon-mail"></i>Contato</a></li>
-                        <li class="current-page"><a href="login.html"><i class="foundicon-lock"></i>Login</a></li>
+                        <li><a href="login.html"><i class="foundicon-lock"></i>Login</a></li>
                     </ul>
                 </nav>
             </section>
@@ -142,7 +136,6 @@
             </footer>
         </div>
     </div>
-
 
     <!-- Included JS Files -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
