@@ -9,7 +9,7 @@
   if ($selector2.length > 0) {
     $('#sidebarButton').on(events, function (e) {
       e.preventDefault();
-      $('body').toggleClass('active');
+      // $('body').toggleClass('active');
     });
   }
 

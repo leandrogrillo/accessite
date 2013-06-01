@@ -26,6 +26,7 @@
 - 4.0 : Adicionado Locais, Noticias, Eventos, Banner do Topo.
 - 4.0.1 : Fix para botão do menu no Galaxy.
 - 4.0.2 : Adicionado descrição das páginas
+- 4.0.3 : removido o hammerjs dos arquivos, adicionado resultado da busca, adicionado banner na home
 
 #### Versão 3.1
 - 3.1.1 : Removido o Hammerjs por motivos de Bug
